@@ -37,3 +37,22 @@ class Language(models.Model):
         verbose_name = 'Язык програмиирования'
         verbose_name_plural = 'Языки программирования'
         ordering = ['name']
+
+
+class Vacancy(models.Model):
+    url = models.URLField(unique=True, db_index=True)
+    title = models.CharField(max_length=250, verbose_name='Название')
+    company = models.CharField(max_length=250, verbose_name='Компания')
+    description = models.TextField(verbose_name='Описание вакансии')
+    city = models.ForeignKey(City, on_delete=models.PROTECT, related_name='vacancies_city', verbose_name='Город')
+    language = models.ForeignKey(Language, on_delete=models.PROTECT, related_name='vacancies_lang',
+                                 verbose_name='Язык программирования')
+    timestamp = models.DateField(auto_now_add=True, verbose_name='Дата')
+
+    def __str__(self):
+        return self.title
+
+    class Meta:
+        verbose_name = 'Вакансия'
+        verbose_name_plural = 'Вакансии'
+        ordering = ['-timestamp']
