@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}Главная :: {% endblock %}
+
+{% block content %}
+  <h1>Список вакансий</h1>
+  <ul>
+    {% for vacancy in vacancies %}
+    <li>
+      <p><a href="{{ vacancy.url }}">{{ vacancy.title }}</a></p>
+      <p>{{ vacancy.description }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+{% endblock %}
