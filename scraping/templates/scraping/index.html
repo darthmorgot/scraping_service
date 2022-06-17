@@ -3,13 +3,21 @@
 {% block title %}Главная :: {% endblock %}
 
 {% block content %}
-  <h1>Список вакансий</h1>
-  <ul>
-    {% for vacancy in vacancies %}
-    <li>
-      <p><a href="{{ vacancy.url }}">{{ vacancy.title }}</a></p>
-      <p>{{ vacancy.description }}</p>
-    </li>
-    {% endfor %}
-  </ul>
+  <div class="container">
+    <h1>Список вакансий</h1>
+    <ul>
+      {% for vacancy in vacancies %}
+      <div class="card mt-3">
+        <h5 class="card-header">
+          <a href="{{ vacancy.url }}" class="list-group-item link-primary">{{ vacancy.title }}</a>
+        </h5>
+        <div class="card-body">
+          <p class="card-text">{{ vacancy.city }}</p>
+          <p class="card-text">{{ vacancy.company }}</p>
+          <p class="card-text">{{ vacancy.description }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </ul>
+  </div>
 {% endblock %}
