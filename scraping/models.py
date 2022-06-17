@@ -41,7 +41,7 @@ class Language(models.Model):
 
 class Vacancy(models.Model):
     url = models.URLField(unique=True, db_index=True)
-    title = models.CharField(max_length=250, verbose_name='Название')
+    title = models.CharField(max_length=250, verbose_name='Название вакансии')
     company = models.CharField(max_length=250, verbose_name='Компания')
     description = models.TextField(verbose_name='Описание вакансии')
     city = models.ForeignKey(City, on_delete=models.PROTECT, related_name='vacancies_city', verbose_name='Город')
