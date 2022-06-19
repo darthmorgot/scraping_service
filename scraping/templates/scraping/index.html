@@ -4,21 +4,32 @@
 
 {% block content %}
   <div class="container">
-    <h1>Список вакансий</h1>
-    <ul>
-      {% for vacancy in vacancies %}
-      <div class="card mt-3">
-        <h5 class="card-header">
-          <a href="{{ vacancy.url }}" class="list-group-item link-primary">{{ vacancy.title }}</a>
-        </h5>
-        <div class="card-body">
-          <p class="card-text">{{ vacancy.city }} | {{ vacancy.language }}</p>
-          <p class="card-text">{{ vacancy.company }}</p>
-          <p class="card-text">{{ vacancy.description }}</p>
-          <p class="card-text">Добавлено: {{ vacancy.timestamp }}</p>
+    <div class="row">
+      <h1>Список вакансий</h1>
+      <ul>
+        {% for vacancy in vacancies %}
+        <div class="card mt-3">
+          <h5 class="card-header">
+            <a href="{{ vacancy.url }}" class="list-group-item link-primary">{{ vacancy.title }}</a>
+          </h5>
+          <div class="card-body">
+            <p class="card-text">{{ vacancy.city }} | {{ vacancy.language }}</p>
+            <p class="card-text">{{ vacancy.company }}</p>
+            <p class="card-text">{{ vacancy.description }}</p>
+            <p class="card-text">Добавлено: {{ vacancy.timestamp }}</p>
+          </div>
         </div>
-      </div>
-      {% endfor %}
-    </ul>
+        {% empty %}
+        <p>Ничего не найдено.</p>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="row">
+      <form class="col-md-4 mt-5 mb-5" method="get">
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-primary">Найти</button>
+      </form>
+    </div>
   </div>
 {% endblock %}
