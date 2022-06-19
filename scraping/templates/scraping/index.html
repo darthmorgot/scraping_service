@@ -19,20 +19,15 @@
             <p class="card-text">Добавлено: {{ vacancy.timestamp }}</p>
           </div>
         </div>
+        {% empty %}
+        <p>Ничего не найдено.</p>
         {% endfor %}
       </ul>
     </div>
 
     <div class="row">
       <form class="col-md-4 mt-5 mb-5" method="get">
-        <div class="mb-3">
-          <label for="inputCity" class="form-label">Город</label>
-          <input type="text" class="form-control" id="inputCity" name="city">
-        </div>
-        <div class="mb-3">
-          <label for="inputLanguage" class="form-label">Язык программирования</label>
-          <input type="text" class="form-control" id="inputLanguage" name="language">
-        </div>
+        {{ form.as_p }}
         <button type="submit" class="btn btn-primary">Найти</button>
       </form>
     </div>
