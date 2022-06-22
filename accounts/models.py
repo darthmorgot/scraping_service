@@ -1,8 +1,30 @@
-from django.contrib.auth.base_user import AbstractBaseUser
+from django.contrib.auth.base_user import AbstractBaseUser, BaseUserManager
 from django.contrib.auth.models import UserManager
 from django.db import models
 
 from scraping.models import City, Language
+
+
+class MyUserManager(BaseUserManager):
+    def create_user(self, email, password=None):
+        if not email:
+            raise ValueError('Необходимо указать email-адрес.')
+
+        user = self.model(
+            email=self.normalize_email(email)
+        )
+        user.set_password(password)
+        user.save(using=self._db)
+        return user
+
+    def create_superuser(self, email, password=None):
+        if not email:
+            raise ValueError('Необходимо указать email-адрес.')
+
+        user = self.create_user(email, password=password)
+        user.is_admin = True
+        user.save(using=self._db)
+        return user
 
 
 class MyUser(AbstractBaseUser):
@@ -14,7 +36,7 @@ class MyUser(AbstractBaseUser):
                                  verbose_name='Язык программирования')
     send_email = models.BooleanField(default=True)
 
-    objects = UserManager()
+    objects = MyUserManager()
 
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = []
@@ -31,3 +53,7 @@ class MyUser(AbstractBaseUser):
     @property
     def is_staff(self):
         return self.is_admin
+
+    class Meta:
+        verbose_name = 'Пользователь'
+        verbose_name_plural = 'Пользователи'
