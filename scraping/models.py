@@ -40,7 +40,7 @@ class Language(models.Model):
 
 
 class Vacancy(models.Model):
-    url = models.URLField(unique=True, db_index=True)
+    url = models.URLField(unique=True, db_index=True, verbose_name='URL')
     title = models.CharField(max_length=250, verbose_name='Название вакансии')
     company = models.CharField(max_length=250, verbose_name='Компания')
     description = models.TextField(verbose_name='Описание вакансии')
@@ -55,4 +55,17 @@ class Vacancy(models.Model):
     class Meta:
         verbose_name = 'Вакансия'
         verbose_name_plural = 'Вакансии'
+        ordering = ['-timestamp']
+
+
+class Error(models.Model):
+    timestamp = models.DateField(auto_now_add=True, verbose_name='Дата')
+    data = models.JSONField(verbose_name='Данные ошибки')
+
+    # def __str__(self):
+    #     return self.title
+
+    class Meta:
+        verbose_name = 'Ошибка'
+        verbose_name_plural = 'Ошибки'
         ordering = ['-timestamp']

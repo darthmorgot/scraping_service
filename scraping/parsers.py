@@ -1,23 +1,9 @@
 import requests
 import codecs
 from bs4 import BeautifulSoup as BS
-from random import randint
+from fake_useragent import UserAgent
 
-headers = [
-    {'User-Agent': 'Mozilla/5.0 (Windows NT 5.1; rv:47.0) Gecko/20100101 Firefox/47.0',
-     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'},
-    {'User-Agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) \
-    Chrome/49.0.2623.112 Safari/537.36',
-     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'},
-    {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:53.0) Gecko/20100101 Firefox/53.0',
-     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'},
-    {'User-Agent': 'Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.9 (KHTML, like Gecko) \
-    Chrome/5.0.307.11 Safari/532.9',
-     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'},
-    {'User-Agent': 'Mozilla/5.0 (Linux; U; Android 2.3.5; en-in; HTC_DesireS_S510e Build/GRJ90) \
-    AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
-     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'}
-]
+headers = {'User-Agent': UserAgent().random}
 
 
 def parse_superjob(url):
@@ -27,7 +13,7 @@ def parse_superjob(url):
     domain = 'https://habarovsk.superjob.ru'
     # url = 'https://habarovsk.superjob.ru/vacancy/search/?keywords=python'
 
-    resp = requests.get(url, headers=headers[randint(0, 4)])
+    resp = requests.get(url, headers=headers)
 
     if resp.status_code == 200:
         soup = BS(resp.content, 'html.parser')
@@ -60,7 +46,7 @@ def parse_headhunter(url):
 
     # url = 'https://khabarovsk.hh.ru/search/vacancy?text=python&from=suggest_post&fromSearchLine=true&area=102'
 
-    resp = requests.get(url, headers=headers[randint(0, 4)])
+    resp = requests.get(url, headers=headers)
 
     if resp.status_code == 200:
         soup = BS(resp.content, 'html.parser')
@@ -94,7 +80,7 @@ def parse_rabota(url):
     domain = 'https://khabarovsk.rabota.ru'
     # url = 'https://khabarovsk.rabota.ru/?query=python&sort=relevance'
 
-    resp = requests.get(url, headers=headers[randint(0, 4)])
+    resp = requests.get(url, headers=headers)
 
     if resp.status_code == 200:
         soup = BS(resp.content, 'html.parser')
