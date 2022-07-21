@@ -69,3 +69,22 @@ class Error(models.Model):
         verbose_name = 'Ошибка'
         verbose_name_plural = 'Ошибки'
         ordering = ['-timestamp']
+
+
+def default_urls():
+    return {'superjob': '', 'headhunter': '', 'rabota': ''}
+
+
+class Url(models.Model):
+    city = models.ForeignKey(City, on_delete=models.PROTECT, related_name='urls_city', verbose_name='Город')
+    language = models.ForeignKey(Language, on_delete=models.PROTECT, related_name='urls_lang',
+                                 verbose_name='Язык программирования')
+    url_data = models.JSONField(default=default_urls, verbose_name='Данные URL')
+
+    def __str__(self):
+        return f'Url {self.city} - {self.language}'
+
+    class Meta:
+        verbose_name = 'URL'
+        verbose_name_plural = 'URLs'
+        unique_together = ('city', 'language')
