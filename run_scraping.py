@@ -1,3 +1,4 @@
+import asyncio
 import codecs
 import os
 import sys
@@ -19,11 +20,12 @@ from scraping.models import Vacancy, City, Language, Error, Url
 User = get_user_model()
 
 parsers = (
-    (parse_superjob, 'https://habarovsk.superjob.ru/vacancy/search/?keywords=python'),
-    (parse_headhunter,
-     'https://khabarovsk.hh.ru/search/vacancy?text=python&from=suggest_post&fromSearchLine=true&area=102'),
-    (parse_rabota, 'https://khabarovsk.rabota.ru/?query=python&sort=relevance')
+    (parse_superjob, 'superjob'),
+    (parse_headhunter, 'headhunter'),
+    (parse_rabota, 'rabota')
 )
+data = []
+errors = []
 
 
 def get_user_data():
@@ -42,19 +44,36 @@ def get_urls(settings):
     return urls
 
 
-city = City.objects.filter(slug='habarovsk').first()
-language = Language.objects.filter(slug='python').first()
+async def main(value):
+    func, url, city, language = value
+    data_item, error = await loop.run_in_executor(None, func, url, city, language)
+    errors.extend(error)
+    data.extend(data_item)
 
-data = []
-errors = []
 
-for func, url in parsers:
-    data_result, errors_result = func(url)
-    data += data_result
-    errors += errors_result
+user_settings = get_user_data()
+url_list = get_urls(user_settings)
+
+loop = asyncio.get_event_loop()
+tmp_tasks = [
+    (func, data_item['url_data'][url_key], data_item['city'], data_item['language'])
+    for data_item in url_list
+    for func, url_key in parsers
+]
+tasks = asyncio.wait([loop.create_task(main(f)) for f in tmp_tasks])
+
+# for data_item in url_list:
+#     for func, url_key in parsers:
+#         url = data_item['url_data'][url_key]
+#         data_result, errors_result = func(url, city=data_item['city'], language=data_item['language'])
+#         data += data_result
+#         errors += errors_result
+
+loop.run_until_complete(tasks)
+loop.close()
 
 for item in data:
-    vacancy = Vacancy(**item, city=city, language=language)
+    vacancy = Vacancy(**item)
     try:
         vacancy.save()
     except DatabaseError:
