@@ -33,5 +33,7 @@ def list_view(request):
     context = {
         'vacancies': page_vacancies,
         'form': form,
+        'city': city,
+        'language': language,
     }
     return render(request, 'scraping/list.html', context=context)
