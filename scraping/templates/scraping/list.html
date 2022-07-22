@@ -25,6 +25,30 @@
       </ul>
     </div>
 
+    {% if vacancies %}
+    <div class="row">
+      <div class="col">
+        <div class="pagination">
+          <span class="step-links">
+            {% if vacancies.has_previous %}
+              <a href="?page=1">&laquo; first</a>
+              <a href="?page={{ vacancies.previous_page_number }}">previous</a>
+            {% endif %}
+
+            <span class="current">
+              Page {{ vacancies.number }} of {{ vacancies.paginator.num_pages }}.
+            </span>
+
+            {% if vacancies.has_next %}
+              <a href="?page={{ vacancies.next_page_number }}">next</a>
+              <a href="?page={{ vacancies.paginator.num_pages }}">last &raquo;</a>
+            {% endif %}
+          </span>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+
     <div class="row">
       <form class="col-md-4 mt-5 mb-5" method="get" action="{% url 'list' %}">
         {{ form.as_p }}
