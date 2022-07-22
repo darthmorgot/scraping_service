@@ -6,6 +6,13 @@ from scraping.models import Vacancy
 
 def home_view(request):
     form = SearchForm()
+
+    context = {'form': form}
+    return render(request, 'scraping/index.html', context=context)
+
+
+def list_view(request):
+    form = SearchForm()
     city = request.GET.get('city')
     language = request.GET.get('language')
     vacancies = []
@@ -22,4 +29,4 @@ def home_view(request):
         'vacancies': vacancies,
         'form': form,
     }
-    return render(request, 'scraping/index.html', context=context)
+    return render(request, 'scraping/list.html', context=context)
