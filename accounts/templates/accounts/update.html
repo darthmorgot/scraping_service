@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}Обновления данных :: {% endblock %}
+
+{% block content %}
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 mb-5">
+        <h4>Обновление данных пользователя</h4>
+        <form class="col-md-8" method="post" action="{% url 'update' %}">
+          {% csrf_token %}
+          {{ form.as_p }}
+          <button type="submit" class="btn btn-primary">Сохранить</button>
+        </form>
+        <form class="col-md-8" method="post" action="{% url 'delete' %}">
+          {% csrf_token %}
+          <button type="submit" class="btn btn-danger mt-2">Удалить</button>
+        </form>
+      </div>
+    </div>
+  </div>
+{% endblock %}
