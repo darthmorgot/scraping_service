@@ -92,3 +92,6 @@ if errors:
 
 # with codecs.open('parsing_result.txt', 'w', encoding='utf-8') as file_handler:
 #     file_handler.write(str(data))
+
+data_retention_period = datetime.date.today() - datetime.timedelta(7)
+Vacancy.objects.filter(timestamp__lte=data_retention_period).delete()
