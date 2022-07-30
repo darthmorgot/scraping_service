@@ -1,8 +1,11 @@
+import datetime
+
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login, logout, get_user_model
 from django.contrib import messages
 
-from accounts.forms import UserLoginForm, UserRegistrationForm, UserUpdateForm
+from accounts.forms import UserLoginForm, UserRegistrationForm, UserUpdateForm, ContactForm
+from scraping.models import Error
 
 User = get_user_model()
 
@@ -38,6 +41,7 @@ def register_view(request):
 
 
 def update_view(request):
+    contact_form = ContactForm()
     if request.user.is_authenticated:
         user = request.user
         if request.method == 'POST':
@@ -52,7 +56,7 @@ def update_view(request):
                 return redirect('update')
 
         form = UserUpdateForm(initial={'city': user.city, 'language': user.language, 'send_email': user.send_email})
-        return render(request, 'accounts/update.html', {'form': form})
+        return render(request, 'accounts/update.html', {'form': form, 'contact_form': contact_form})
     else:
         return redirect('login')
 
@@ -65,3 +69,29 @@ def delete_view(request):
             user_data.delete()
             messages.error(request, 'Пользователь удален')
     return redirect('home')
+
+
+def contact_view(request):
+    if request.method == 'POST':
+        contact_form = ContactForm(request.POST or None)
+        if contact_form.is_valid():
+            data = contact_form.cleaned_data
+            city = data.get('city')
+            language = data.get('language')
+            email = data.get('email')
+            error_data = Error.objects.filter(timestamp=datetime.date.today())
+            if error_data.exists():
+                err = error_data.first()
+                data = err.data.get('user_data', [])
+                data.append({'city': city, 'language': language, 'email': email})
+                err.data['user_data'] = data
+                err.save()
+            else:
+                data = [{'city': city, 'language': language, 'email': email}]
+                Error(data=f"user_data: {data}").save()
+            messages.success(request, 'Данные отправлены на рассмотрение.')
+            return redirect('update')
+        else:
+            return redirect('update')
+    else:
+        return redirect('login')

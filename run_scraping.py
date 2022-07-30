@@ -2,6 +2,7 @@ import asyncio
 import codecs
 import os
 import sys
+import datetime
 
 from django.contrib.auth import get_user_model
 from django.db import DatabaseError
@@ -15,7 +16,7 @@ import django
 django.setup()
 
 from scraping.parsers import parse_superjob, parse_headhunter, parse_rabota
-from scraping.models import Vacancy, City, Language, Error, Url
+from scraping.models import Vacancy, Error, Url
 
 User = get_user_model()
 
@@ -39,8 +40,9 @@ def get_urls(settings):
     url_dict = {(i['city_id'], i['language_id']): i['url_data'] for i in url_data}
     urls = []
     for pair in settings:
-        tmp = {'city': pair[0], 'language': pair[1], 'url_data': url_dict[pair]}
-        urls.append(tmp)
+        if pair in url_dict:
+            tmp = {'city': pair[0], 'language': pair[1], 'url_data': url_dict[pair]}
+            urls.append(tmp)
     return urls
 
 
@@ -80,7 +82,16 @@ for item in data:
         pass
 
 if errors:
-    ers = Error(data=errors).save()
+    error_data = Error.objects.filter(timestamp=datetime.date.today())
+    if error_data.exists():
+        err = error_data.first()
+        err.data.update({'errors': errors})
+        err.save()
+    else:
+        ers = Error(data=f'errors: {errors}').save()
 
 # with codecs.open('parsing_result.txt', 'w', encoding='utf-8') as file_handler:
 #     file_handler.write(str(data))
+
+data_retention_period = datetime.date.today() - datetime.timedelta(7)
+Vacancy.objects.filter(timestamp__lte=data_retention_period).delete()

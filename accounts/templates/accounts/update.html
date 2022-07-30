@@ -18,5 +18,17 @@
         </form>
       </div>
     </div>
+
+    <div class="row">
+      <div class="col-md-6 mb-5">
+        <p>Если вы не нашли нужный набор "город-язык программирования", заполните форму ниже. После добавления данных
+          вы получите письмо на указанный email.</p>
+        <form class="col-md-8" method="post" action="{% url 'contact' %}">
+          {% csrf_token %}
+          {{ contact_form.as_p }}
+          <button type="submit" class="btn btn-primary">Отправить</button>
+        </form>
+      </div>
+    </div>
   </div>
 {% endblock %}
