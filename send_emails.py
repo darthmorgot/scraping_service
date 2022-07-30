@@ -12,7 +12,7 @@ os.environ['DJANGO_SETTINGS_MODULE'] = 'scraping_service.settings'
 
 django.setup()
 from scraping_service.settings import EMAIL_HOST_USER
-from scraping.models import Vacancy, Error
+from scraping.models import Vacancy, Error, Url
 User = get_user_model()
 
 ADMIN_EMAIL = EMAIL_HOST_USER
@@ -23,11 +23,11 @@ from_email = EMAIL_HOST_USER
 to_email = 'to@example.com'
 empty = '<h2>По вашему запросу ничего не найдено.</h2>'
 
-user_data = User.objects.filter(send_email=True).values('city', 'language', 'email')
+user_data = User.objects.filter(send_email=True).values('city', 'language', 'city__name', 'language__name', 'email')
 users_dict = {}
 for item in user_data:
-    users_dict.setdefault((item['city'], item['language']), [])
-    users_dict[(item['city'], item['language'])].append(item['email'])
+    users_dict.setdefault((item['city'], item['language'], item['city__name'], item['language__name']), [])
+    users_dict[(item['city'], item['language'], item['city__name'], item['language__name'])].append(item['email'])
 
 if users_dict:
     params = {'city_id__in': [], 'language_id__in': []}
@@ -54,17 +54,32 @@ if users_dict:
             msg.send()
 
 error_data = Error.objects.filter(timestamp=today)
+subject = ''
+text_content = ''
+to_email = ADMIN_EMAIL
+html_content = ''
 
 if error_data.exists():
     error = error_data.first()
     data = error.data
-    html_content = ''
     for item in data:
         html_content += f'<h4><a href="{item["url"]}">Error: {item["title"]}</a></h4>'
 
-    subject = 'Ошибки выполнения скрапинга'
-    text_content = 'Ошибки выполнения скрапинга'
-    to_email = ADMIN_EMAIL
+    subject += f'Ошибки выполнения скрапинга {today} '
+    text_content += 'Ошибки выполнения скрапинга'
+
+url_data = Url.objects.all().values('city', 'language')
+urls_dict = {(i['city'], i['language']): True for i in url_data}
+url_error = ''
+for keys in users_dict:
+    if keys not in urls_dict:
+        url_error += f'<p>Для города: {keys[2]} и ЯП: {keys[3]} нет подходящих ссылок.</p>'
+
+if url_error:
+    subject += 'Отсутствующие ссылки '
+    html_content += url_error
+
+if subject:
     msg = EmailMultiAlternatives(subject, text_content, from_email, [to_email])
     msg.attach_alternative(html_content, "text/html")
     msg.send()
