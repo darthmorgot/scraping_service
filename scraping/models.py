@@ -62,8 +62,8 @@ class Error(models.Model):
     timestamp = models.DateField(auto_now_add=True, verbose_name='Дата')
     data = models.JSONField(verbose_name='Данные ошибки')
 
-    # def __str__(self):
-    #     return self.title
+    def __str__(self):
+        return f'Ошибка на {str(self.timestamp)}'
 
     class Meta:
         verbose_name = 'Ошибка'
