@@ -61,22 +61,34 @@ html_content = ''
 
 if error_data.exists():
     error = error_data.first()
-    data = error.data
-    for item in data:
-        html_content += f'<h4><a href="{item["url"]}">Error: {item["title"]}</a></h4>'
-
-    subject += f'Ошибки выполнения скрапинга {today} '
+    data_errors = error.data['errors']
+    if data_errors:
+        html_content += '<hr>'
+        html_content += '<h3>Ошибки выполнения скрапинга</h3>'
+    for item in data_errors:
+        html_content += f'<p><a href="{item["url"]}">Error: {item["title"]}</a></p>'
+    subject += f'Ошибки выполнения скрапинга {today}; '
     text_content += 'Ошибки выполнения скрапинга'
+
+    data_user = error.data['user_data']
+    if data_user:
+        html_content += '<hr>'
+        html_content += '<h3>Предложения пользователей</h3>'
+    for item in data_user:
+        html_content += f'<p>Город: {item["city"]}, ЯП: {item["language"]}, Email: {item["email"]}</p>'
+    subject += f'Предложения пользователей {today}; '
+    text_content += 'Предложения пользователей'
 
 url_data = Url.objects.all().values('city', 'language')
 urls_dict = {(i['city'], i['language']): True for i in url_data}
 url_error = ''
 for keys in users_dict:
     if keys not in urls_dict:
-        url_error += f'<p>Для города: {keys[2]} и ЯП: {keys[3]} нет подходящих ссылок.</p>'
+        if keys[2] and keys[3]:
+            url_error += f'<p>Для города: {keys[2]} и ЯП: {keys[3]} нет подходящих ссылок.</p>'
 
 if url_error:
-    subject += 'Отсутствующие ссылки '
+    subject += 'Отсутствующие ссылки; '
     html_content += url_error
 
 if subject:
