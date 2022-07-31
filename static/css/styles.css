@@ -1,0 +1,9 @@
+@font-face {
+  font-family: Texturina;
+  src: url("../fonts/Texturina-Bold.ttf");
+}
+
+.brand-logo {
+  font-family: Texturina, serif;
+  color: #0d6efd;
+}
