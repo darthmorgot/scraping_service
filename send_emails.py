@@ -61,7 +61,7 @@ html_content = ''
 
 if error_data.exists():
     error = error_data.first()
-    data_errors = error.data['errors']
+    data_errors = error.data.get('errors', [])
     if data_errors:
         html_content += '<hr>'
         html_content += '<h3>Ошибки выполнения скрапинга</h3>'
@@ -70,7 +70,7 @@ if error_data.exists():
     subject += f'Ошибки выполнения скрапинга {today}; '
     text_content += 'Ошибки выполнения скрапинга'
 
-    data_user = error.data['user_data']
+    data_user = error.data.get('user_data', [])
     if data_user:
         html_content += '<hr>'
         html_content += '<h3>Предложения пользователей</h3>'
