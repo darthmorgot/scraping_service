@@ -1,9 +1,9 @@
 from django.core.paginator import Paginator
 from django.shortcuts import render, get_object_or_404
 from django.urls import reverse_lazy
-from django.views.generic import DetailView, ListView, CreateView
+from django.views.generic import DetailView, ListView, CreateView, UpdateView
 
-from scraping.forms import SearchForm
+from scraping.forms import SearchForm, CreateForm
 from scraping.models import Vacancy
 
 
@@ -84,5 +84,12 @@ class ListPageView(ListView):
 class CreatePageView(CreateView):
     model = Vacancy
     template_name = 'scraping/create.html'
-    fields = '__all__'
+    form_class = CreateForm
+    success_url = reverse_lazy('home')
+
+
+class UpdatePageView(UpdateView):
+    model = Vacancy
+    template_name = 'scraping/create.html'
+    form_class = CreateForm
     success_url = reverse_lazy('home')
