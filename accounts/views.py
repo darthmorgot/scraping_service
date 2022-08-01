@@ -20,13 +20,13 @@ def login_view(request):
         user = authenticate(request, email=email, password=password)
         login(request, user)
         messages.success(request, 'Вы вошли в систему')
-        return redirect('home')
+        return redirect('scraping:home')
     return render(request, 'accounts/login.html', {'form': form})
 
 
 def logout_view(request):
     logout(request)
-    return redirect('home')
+    return redirect('scraping:home')
 
 
 def register_view(request):
@@ -53,12 +53,12 @@ def update_view(request):
                 user.send_email = data['send_email']
                 user.save()
                 messages.success(request, 'Данные сохранены')
-                return redirect('update')
+                return redirect('accounts:update')
 
         form = UserUpdateForm(initial={'city': user.city, 'language': user.language, 'send_email': user.send_email})
         return render(request, 'accounts/update.html', {'form': form, 'contact_form': contact_form})
     else:
-        return redirect('login')
+        return redirect('accounts:login')
 
 
 def delete_view(request):
@@ -68,7 +68,7 @@ def delete_view(request):
             user_data = User.objects.get(pk=user.pk)
             user_data.delete()
             messages.error(request, 'Пользователь удален')
-    return redirect('home')
+    return redirect('scraping:home')
 
 
 def contact_view(request):
@@ -90,8 +90,8 @@ def contact_view(request):
                 data = [{'city': city, 'language': language, 'email': email}]
                 Error(data=f"user_data: {data}").save()
             messages.success(request, 'Данные отправлены на рассмотрение.')
-            return redirect('update')
+            return redirect('accounts:update')
         else:
-            return redirect('update')
+            return redirect('accounts:update')
     else:
-        return redirect('login')
+        return redirect('accounts:login')
