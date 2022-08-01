@@ -1,7 +1,9 @@
+from django.contrib import messages
+from django.contrib.messages.views import SuccessMessageMixin
 from django.core.paginator import Paginator
 from django.shortcuts import render, get_object_or_404
 from django.urls import reverse_lazy
-from django.views.generic import DetailView, ListView, CreateView, UpdateView
+from django.views.generic import DetailView, ListView, CreateView, UpdateView, DeleteView
 
 from scraping.forms import SearchForm, CreateForm
 from scraping.models import Vacancy
@@ -85,11 +87,18 @@ class CreatePageView(CreateView):
     model = Vacancy
     template_name = 'scraping/create.html'
     form_class = CreateForm
-    success_url = reverse_lazy('home')
+    success_url = reverse_lazy('scraping:home')
 
 
 class UpdatePageView(UpdateView):
     model = Vacancy
     template_name = 'scraping/create.html'
     form_class = CreateForm
-    success_url = reverse_lazy('home')
+    success_url = reverse_lazy('scraping:home')
+
+
+class DeletePageView(SuccessMessageMixin, DeleteView):
+    model = Vacancy
+    template_name = 'scraping/delete.html'
+    success_url = reverse_lazy('scraping:home')
+    success_message = 'Данные успешно удалены.'
