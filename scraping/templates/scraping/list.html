@@ -88,7 +88,7 @@
     {% endif %}
 
     <div class="row">
-      <form class="col-md-4 mt-5 mb-5" method="get" action="{% url 'list' %}">
+      <form class="col-md-4 mt-5 mb-5" method="get" action="{% url 'scraping:list' %}">
         {{ form.as_p }}
         <button type="submit" class="btn btn-primary">Найти</button>
       </form>

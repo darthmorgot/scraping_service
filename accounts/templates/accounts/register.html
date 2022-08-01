@@ -7,7 +7,7 @@
     <div class="row">
       <div class="col-md-6 mb-5">
         <h4>Регистрация нового пользователя</h4>
-        <form class="col-md-8" method="post" action="{% url 'register' %}">
+        <form class="col-md-8" method="post" action="{% url 'accounts:register' %}">
           {% csrf_token %}
           {{ form.as_p }}
           <button type="submit" class="btn btn-primary">Зарегистривовать</button>
