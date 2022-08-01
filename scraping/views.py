@@ -1,5 +1,6 @@
 from django.core.paginator import Paginator
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
+from django.views.generic import DetailView
 
 from scraping.forms import SearchForm
 from scraping.models import Vacancy
@@ -37,3 +38,14 @@ def list_view(request):
         'language': language,
     }
     return render(request, 'scraping/list.html', context=context)
+
+
+def detail_view(request, pk):
+    # obj = Vacancy.objects.get(pk=pk)
+    obj = get_object_or_404(Vacancy, pk=pk)
+    return render(request, 'scraping/detail.html', {'object': obj})
+
+
+class DetailPageView(DetailView):
+    queryset = Vacancy.objects.all()
+    template_name = 'scraping/detail.html'
