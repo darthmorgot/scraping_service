@@ -5,19 +5,15 @@
 {% block content %}
   <div class="container">
     <div class="row">
-      <div>
+      <div class="col-md-6">
         <div class="card mt-3">
-          <h5 class="card-header">
-            <a href="{{ object.url }}" class="list-group-item link-primary">{{ object.title }}</a>
-          </h5>
+          <h5 class="card-header">Создание вакансии</h5>
           <div class="card-body">
-            <p class="card-text">
-              <form action="{% url 'create' %}" method="post">
-                {% csrf_token %}
-                {{ form.as_p }}
-                <button type="submit" class="btn btn-primary">Сохранить</button>
-              </form>
-            </p>
+            <form action="{% url 'create' %}" method="post">
+              {% csrf_token %}
+              {{ form.as_p }}
+              <button type="submit" class="btn btn-primary">Сохранить</button>
+            </form>
           </div>
         </div>
       </div>
