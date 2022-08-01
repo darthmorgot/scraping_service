@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}Список вакансий :: {% endblock %}
+
+{% block content %}
+  <div class="container">
+    <div class="row">
+      <div>
+        <div class="card mt-3">
+          <h5 class="card-header">
+            <a href="{{ object.url }}" class="list-group-item link-primary">{{ object.title }}</a>
+          </h5>
+          <div class="card-body">
+            <p class="card-text">{{ object.city }} | {{ object.language }}</p>
+            <p class="card-text h5">{{ object.company }}</p>
+            <p class="card-text">{{ object.description }}</p>
+            <p class="card-text">Добавлено: {{ object.timestamp }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
