@@ -1,6 +1,7 @@
 from django.core.paginator import Paginator
 from django.shortcuts import render, get_object_or_404
-from django.views.generic import DetailView, ListView
+from django.urls import reverse_lazy
+from django.views.generic import DetailView, ListView, CreateView
 
 from scraping.forms import SearchForm
 from scraping.models import Vacancy
@@ -78,3 +79,10 @@ class ListPageView(ListView):
                 filtered['language__slug'] = language
             page_vacancies = Vacancy.objects.filter(**filtered)
         return page_vacancies
+
+
+class CreatePageView(CreateView):
+    model = Vacancy
+    template_name = 'scraping/create.html'
+    fields = '__all__'
+    success_url = reverse_lazy('home')
