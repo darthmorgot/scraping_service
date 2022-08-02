@@ -1,5 +1,4 @@
 import asyncio
-import codecs
 import os
 import sys
 import datetime
@@ -64,13 +63,6 @@ tmp_tasks = [
 ]
 tasks = asyncio.wait([loop.create_task(main(f)) for f in tmp_tasks])
 
-# for data_item in url_list:
-#     for func, url_key in parsers:
-#         url = data_item['url_data'][url_key]
-#         data_result, errors_result = func(url, city=data_item['city'], language=data_item['language'])
-#         data += data_result
-#         errors += errors_result
-
 loop.run_until_complete(tasks)
 loop.close()
 
@@ -89,9 +81,6 @@ if errors:
         err.save()
     else:
         ers = Error(data=f'errors: {errors}').save()
-
-# with codecs.open('parsing_result.txt', 'w', encoding='utf-8') as file_handler:
-#     file_handler.write(str(data))
 
 data_retention_period = datetime.date.today() - datetime.timedelta(7)
 Vacancy.objects.filter(timestamp__lte=data_retention_period).delete()
