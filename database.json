@@ -1,0 +1,2882 @@
+[
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add Город",
+    "content_type": 6,
+    "codename": "add_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change Город",
+    "content_type": 6,
+    "codename": "change_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete Город",
+    "content_type": 6,
+    "codename": "delete_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view Город",
+    "content_type": 6,
+    "codename": "view_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add Язык програмиирования",
+    "content_type": 7,
+    "codename": "add_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change Язык програмиирования",
+    "content_type": 7,
+    "codename": "change_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete Язык програмиирования",
+    "content_type": 7,
+    "codename": "delete_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view Язык програмиирования",
+    "content_type": 7,
+    "codename": "view_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add Вакансия",
+    "content_type": 8,
+    "codename": "add_vacancy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change Вакансия",
+    "content_type": 8,
+    "codename": "change_vacancy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete Вакансия",
+    "content_type": 8,
+    "codename": "delete_vacancy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view Вакансия",
+    "content_type": 8,
+    "codename": "view_vacancy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add my user",
+    "content_type": 9,
+    "codename": "add_myuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change my user",
+    "content_type": 9,
+    "codename": "change_myuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete my user",
+    "content_type": 9,
+    "codename": "delete_myuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view my user",
+    "content_type": 9,
+    "codename": "view_myuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add Ошибка",
+    "content_type": 10,
+    "codename": "add_error"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change Ошибка",
+    "content_type": 10,
+    "codename": "change_error"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete Ошибка",
+    "content_type": 10,
+    "codename": "delete_error"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view Ошибка",
+    "content_type": 10,
+    "codename": "view_error"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add URL",
+    "content_type": 11,
+    "codename": "add_url"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change URL",
+    "content_type": 11,
+    "codename": "change_url"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete URL",
+    "content_type": 11,
+    "codename": "delete_url"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view URL",
+    "content_type": 11,
+    "codename": "view_url"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "scraping",
+    "model": "city"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "scraping",
+    "model": "language"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "scraping",
+    "model": "vacancy"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "accounts",
+    "model": "myuser"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "scraping",
+    "model": "error"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "scraping",
+    "model": "url"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "0j14zapdgniirmxfkbxfq7lvsabqvj6c",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAIMIBL956BDMxUqoYmpV013t2QdKHb_977h0i4bzXtndc0k7gKLS6_W8by4jYAPbE9FlmWtq1zlkORJ-3yvhC_b6f7d1Cx11FbD9FFBSqgpQIWJqfcZE3JnKMypCByAJtZ26Axe4_K6AIQyQfjWHy-xoc3JQ:1o3uBE:ozi_DdNIMRd8MMKpB19kMzUD55pnGQtvVCj_M-Nv_Nk",
+    "expire_date": "2022-07-06T06:49:36.411Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "sp4y1y0u31dunnin0u2uf85zt0ycea4i",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAIMIBL956BDMxUqoYmpV013t2QdKHb_977h0i4bzXtndc0k7gKLS6_W8by4jYAPbE9FlmWtq1zlkORJ-3yvhC_b6f7d1Cx11FbD9FFBSqgpQIWJqfcZE3JnKMypCByAJtZ26Axe4_K6AIQyQfjWHy-xoc3JQ:1oGc73:wNazEcqiplXpDyDxXZ2Z7HR3Hs36GWupSuHkhVbeAAs",
+    "expire_date": "2022-08-10T08:09:49.363Z"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 1,
+  "fields": {
+    "name": "Тында",
+    "slug": "tynda"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 2,
+  "fields": {
+    "name": "Хабаровск",
+    "slug": "habarovsk"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 4,
+  "fields": {
+    "name": "Комсомольск-на-Амуре",
+    "slug": "komsomolsk-na-amure"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 2,
+  "fields": {
+    "name": "Python",
+    "slug": "python"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 3,
+  "fields": {
+    "name": "Javascript",
+    "slug": "javascript"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 5,
+  "fields": {
+    "url": "https://habarovsk.superjob.ru/vakansii/specialist-sluzhby-podderzhki-37984550.html",
+    "title": "Специалист службы поддержки (с техническими знаниями)",
+    "company": "Яндекс",
+    "description": "Отвечать на сообщения пользователей по почте и в чатах. Консультировать их о вопросах, связанных с Яндексом. Передавать информацию…Грамотно пишете по-русски. Умеете четко и структурированно излагать мысли. Легко находите главную информацию в текстах разного…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 6,
+  "fields": {
+    "url": "https://habarovsk.superjob.ru/vakansii/specialist-sluzhby-podderzhki-s-tehnicheskimi-znaniyami-39820054.html",
+    "title": "Специалист службы поддержки с техническими знаниями (TOOLS)",
+    "company": "Яндекс",
+    "description": "Отвечать на сообщения пользователей по почте и в чатах. Консультировать их о вопросах, связанных с Яндексом. Передавать информацию…Грамотно пишете по-русски. Умеете четко и структурированно излагать мысли. Легко находите главную информацию в текстах разного…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 7,
+  "fields": {
+    "url": "https://habarovsk.superjob.ru/vakansii/specialist-sluzhby-podderzhki-s-tehnicheskimi-znaniyami-v-yandeks-360-39814922.html",
+    "title": "Специалист службы поддержки с техническими знаниями в Яндекс 360 (бэкенд)",
+    "company": "Яндекс",
+    "description": "Отвечать на сообщения пользователей по почте и в чатах. Консультировать их о вопросах, связанных с Яндексом. Передавать информацию…Грамотно пишете по-русски. Умеете четко и структурированно излагать мысли. Легко находите главную информацию в текстах разного…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 8,
+  "fields": {
+    "url": "https://habarovsk.superjob.ru/vakansii/specialist-sluzhby-podderzhki-s-tehnicheskimi-znaniyami-39688810.html",
+    "title": "Специалист службы поддержки с техническими знаниями (Яндекс ID)",
+    "company": "Яндекс",
+    "description": "Отвечать на сообщения пользователей по почте и в чатах. Консультировать их о вопросах, связанных с Яндексом. Передавать информацию…Грамотно пишете по-русски. Умеете четко и структурированно излагать мысли. Легко находите главную информацию в текстах разного…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 9,
+  "fields": {
+    "url": "https://habarovsk.superjob.ru/vakansii/specialist-sluzhby-podderzhki-s-tehnicheskimi-znaniyami-39687587.html",
+    "title": "Специалист службы поддержки с техническими знаниями (Умные устройства)",
+    "company": "Яндекс",
+    "description": "Отвечать на сообщения пользователей по почте и в чатах. Консультировать их о вопросах, связанных с Яндексом. Передавать информацию…Грамотно пишете по-русски. Умеете четко и структурированно излагать мысли. Легко находите главную информацию в текстах разного…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 10,
+  "fields": {
+    "url": "https://habarovsk.superjob.ru/vakansii/specialist-sluzhby-podderzhki-s-tehnicheskimi-znaniyami-39710209.html",
+    "title": "Специалист службы поддержки с техническими знаниями (Карты)",
+    "company": "Яндекс",
+    "description": "Отвечать на сообщения пользователей по почте и в чатах. Консультировать их о вопросах, связанных с Яндексом. Передавать информацию…Грамотно пишете по-русски. Умеете четко и структурированно излагать мысли. Легко находите главную информацию в текстах разного…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 11,
+  "fields": {
+    "url": "https://habarovsk.superjob.ru/vakansii/specialist-sluzhby-podderzhki-s-tehnicheskimi-znaniyami-39705422.html",
+    "title": "Специалист службы поддержки с техническими знаниями (Диск)",
+    "company": "Яндекс",
+    "description": "Отвечать на сообщения пользователей по почте и в чатах. Консультировать их о вопросах, связанных с Яндексом. Передавать информацию…Грамотно пишете по-русски. Умеете четко и структурированно излагать мысли. Легко находите главную информацию в текстах разного…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 12,
+  "fields": {
+    "url": "https://habarovsk.superjob.ru/vakansii/specialist-sluzhby-podderzhki-s-tehnicheskimi-znaniyami-39681072.html",
+    "title": "Специалист службы поддержки с техническими знаниями (Контест)",
+    "company": "Яндекс",
+    "description": "Отвечать на сообщения пользователей по почте и в чатах. Консультировать их о вопросах, связанных с Яндексом. Передавать информацию…Грамотно пишете по-русски. Умеете четко и структурированно излагать мысли. Легко находите главную информацию в текстах разного…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 13,
+  "fields": {
+    "url": "https://habarovsk.superjob.ru/vakansii/specialist-sluzhby-podderzhki-s-tehnicheskimi-znaniyami-39818578.html",
+    "title": "Специалист службы поддержки с техническими знаниями / Волкер",
+    "company": "Яндекс",
+    "description": "Отвечать на сообщения пользователей по почте и в чатах. Консультировать их о вопросах, связанных с Яндексом. Передавать информацию…Грамотно пишете по-русски. Умеете четко и структурированно излагать мысли. Легко находите главную информацию в текстах разного…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 14,
+  "fields": {
+    "url": "https://habarovsk.superjob.ru/vakansii/specialist-sluzhby-podderzhki-s-tehnicheskimi-znaniyami-v-yandeks-360-39795739.html",
+    "title": "Специалист службы поддержки с техническими знаниями в Яндекс 360 (фронтенд)",
+    "company": "Яндекс",
+    "description": "Отвечать на сообщения пользователей по почте и в чатах. Консультировать их о вопросах, связанных с Яндексом. Передавать информацию…Грамотно пишете по-русски. Умеете четко и структурированно излагать мысли. Легко находите главную информацию в текстах разного…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 15,
+  "fields": {
+    "url": "https://khabarovsk.hh.ru/vacancy/67235429?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "title": "Python-разработчик (backend)",
+    "company": "ООО Авантелеком",
+    "description": "Разработка программных продуктов компании (ПО для колл-центров). Задачи по интеграциям с колл-центрами и другими сервисами на стороне заказчика. 2. не ниже уровня middle. Python 2/3, django, понимание работы c PyPI, virtualenv, Asyncio. GNU/Linux, умение работать в...",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 16,
+  "fields": {
+    "url": "https://khabarovsk.hh.ru/vacancy/67964285?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "title": "Разработчик Python/Django",
+    "company": "ООО Афина",
+    "description": "В рамках реализации проекта по созданию микросервиса, расширяющего функционал основной системы требуется разработчик. Основные обязанности - создание бэкенд части микросервиса, проектирование...Опыт работы с Python/Django от трех лет, отличные знания SQL. Опыт работы с DRF. Умение проектировать и реализовывать REST...",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 17,
+  "fields": {
+    "url": "https://khabarovsk.hh.ru/vacancy/67795896?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "title": "Программист Python\\Django",
+    "company": "ООО ИнфоДев",
+    "description": "Разработка веб-приложений с использованием Python\\Django. Проектирование и реализация REST-сервисов. Проектирование и реализация архитектуры и бизнес-логики системы. 2-3 года опыта коммерческой разработки веб-приложений на Python>=2.7 и Django >= 1.9. Опыт работы с Django...",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 18,
+  "fields": {
+    "url": "https://khabarovsk.hh.ru/vacancy/53273004?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "title": "Specialist DevOps",
+    "company": "ALP GROUP",
+    "description": "Digital-экосистема, целевой охват - Россия и ближнее зарубежье. Тестовые и продуктивные среды, представленные в кластерах Kubernetes, расположенных в нескольких странах. Знание Helm3, Kustomize, jsonnet. Знание одного из языков разработки: Python, Golang. Опыт работы с облачными провайдерами на технологии: Openstack...",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 19,
+  "fields": {
+    "url": "https://khabarovsk.hh.ru/vacancy/48224462?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "title": "Специалист службы поддержки с техническими знаниями (Контест)",
+    "company": "Яндекс",
+    "description": "Отвечать на сообщения пользователей по почте и в чатах. Консультировать их о вопросах, связанных с Яндексом. Передавать информацию разработчикам и...Умеете читать языки JavaScript, HTML и Python. Имеете высшее или неоконченное высшее образование (техническое будет плюсом). Помогали людям онлайн. ",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 20,
+  "fields": {
+    "url": "https://khabarovsk.hh.ru/vacancy/67809151?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "title": "Разработчик ETL",
+    "company": "Тинькофф",
+    "description": "Проектирование и разработка процессов преобразования данных (ETL) для хранилища данных. Написание скриптов на SQL, Python. Проектирование потоков данных. Высшее техническое образование. Опыт работы с базами данных в качестве разработчика от 1 года. Свободное владение SQL. Понимание теории СУБД...",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 21,
+  "fields": {
+    "url": "https://khabarovsk.hh.ru/vacancy/67769895?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "title": "Администратор ИФТ",
+    "company": "Сбер. IT",
+    "description": "Администрирование тестовых сред, предоставление сервиса в рамках принятых SLA. Обеспечение функционирования сопровождаемых тестовых сред АС в плановом режиме. Опыт автоматизации: написание скриптов на Jython/Python, bash, PowerShell, навыки работы с Jenkins. Опыт работы с системами управления конфигурациями – Ansible...",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 22,
+  "fields": {
+    "url": "https://khabarovsk.hh.ru/vacancy/67756067?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "title": "Ведущий инженер по сопровождению единой фронтальной системы",
+    "company": "Сбер для экспертов",
+    "description": "Администрирование высоконагруженных фронтальных приложений Интернет-банка. Поддержка работы систем в нескольких каналах: WEB-интерфейс, мобильное приложение, голосовые сценарии, ATM. Опыт работы с реляционными базами, знаете SQL. Знание Java, yaml, bash, python, C#, .NET. Опыт сопровождения высоконагруженных систем. ",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 23,
+  "fields": {
+    "url": "https://khabarovsk.hh.ru/vacancy/67756351?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "title": "Ведущий инженер по сопровождению интернет-банка",
+    "company": "Сбер для экспертов",
+    "description": "Сопровождение банковской АС в соответствии с SLA/TLA. Администрирование и конфигурирование систем на основе микросервисной архитектуры в распределенной среде. Опыт программирования на одном из языков: Bash, Python, Java, C++,C#. Опыт настройки/сопровождения серверов приложений (Websphere Application Server,Weblogic...",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 24,
+  "fields": {
+    "url": "https://khabarovsk.hh.ru/vacancy/67681633?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "title": "Инженер-программист",
+    "company": "МУП г. Хабаровска Тепловые сети",
+    "description": "Осуществлять сопровождение внедренных программ и программных средств. Осуществлять запуск отлаженных программ и ввод исходных данных, определяемых условиями поставленных задач. Высшее образование. Знание языков: С++ (MFC), Python (Django), JavaScript (React). Уверенное владение SQL. Навыки работы с Git. Опыт работы в...",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 25,
+  "fields": {
+    "url": "https://khabarovsk.hh.ru/vacancy/67678847?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "title": "Ведущий инженер по сопровождению интернет-банка",
+    "company": "Сбер. IT",
+    "description": "Сопровождение банковской АС в соответствии с SLA/TLA. Администрирование и конфигурирование систем на основе микросервисной архитектуры в распределенной среде. Опыт программирования на одном из языков: Bash, Python, Java, C++,C#. Опыт настройки/сопровождения серверов приложений (Websphere Application Server,Weblogic...",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 26,
+  "fields": {
+    "url": "https://khabarovsk.hh.ru/vacancy/67555914?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "title": "Разработчик УНСИ (SberData)",
+    "company": "Сбер. IT",
+    "description": "Перенос функциональности системы с диалекта SQL, используемого в СУБД Teradata на PL/pgSQL СУБД GreenPlum. Разработка хранимых процедур для СУБД...Опыт работы со скриптовыми языками (Bash, Python и т.д.). Опыт работы с Wildfly, Apache Tomcat, ETL (Informatica, AbInitio). ",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 27,
+  "fields": {
+    "url": "https://khabarovsk.hh.ru/vacancy/55356305?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "title": "Специалист службы поддержки с техническими знаниями в Яндекс 360 (бэкенд)",
+    "company": "Яндекс",
+    "description": "Отвечать на сообщения пользователей по почте и в чатах. Консультировать их о вопросах, связанных с Яндексом. Передавать информацию разработчикам и...Умеете читать языки JavaScript, HTML и Python. Имеете высшее или неоконченное высшее образование (техническое будет плюсом). Помогали людям онлайн. ",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 28,
+  "fields": {
+    "url": "https://khabarovsk.hh.ru/vacancy/55354899?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "title": "Специалист службы поддержки с техническими знаниями (Умные устройства)",
+    "company": "Яндекс",
+    "description": "Отвечать на сообщения пользователей по почте и в чатах. Консультировать их о вопросах, связанных с Яндексом. Передавать информацию разработчикам и...Умеете читать языки JavaScript, HTML и Python. Имеете высшее или неоконченное высшее образование (техническое будет плюсом). Помогали людям онлайн. ",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 29,
+  "fields": {
+    "url": "https://khabarovsk.hh.ru/vacancy/55352629?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "title": "Специалист службы поддержки (с техническими знаниями)",
+    "company": "Яндекс",
+    "description": "Отвечать на сообщения пользователей по почте и в чатах. Консультировать их о вопросах, связанных с Яндексом. Передавать информацию разработчикам и...Умеете читать языки JavaScript, HTML и Python. Имеете высшее или неоконченное высшее образование (техническое будет плюсом). Помогали людям онлайн. ",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 30,
+  "fields": {
+    "url": "https://khabarovsk.hh.ru/vacancy/67521888?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "title": "Администратор GreenPlum (SberData)",
+    "company": "Сбер. IT",
+    "description": "Развертывать, обновлять, вести мониторинг СУБД GreenPlum. Работать с инцидентами СУБД. Проводить регламентные работы на СУБД. Делать резервное копирование/восстановление СУБД. Опыт работы DBA PostgreSQL или Oracle от 2 лет. Готовность переобучиться на DBA Greenplum. Понимание устройства PostgreSQL и/или Oracle...",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 31,
+  "fields": {
+    "url": "https://khabarovsk.hh.ru/vacancy/67517074?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "title": "Web-разработчик",
+    "company": "GO",
+    "description": "Начали отбор разработчиков в команду.Знание php - обязательно. Знание python, java, HTML5, CSS3 и тд. (Опыт в 1с Bitrix приветствуется). ",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 32,
+  "fields": {
+    "url": "https://khabarovsk.hh.ru/vacancy/67444738?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "title": "Системный администратор Linux",
+    "company": "Ростелеком-Солар",
+    "description": "Сопровождение существующих интеграционных и автоматизационных механизмов под Linux, в меньшей мере под Windows (powershell). Участие в разработке новой скриптотехники под......мы разрабатываем свой инструментарий и интеграционные механизмы), bash/php/perl/python etc. Плюсом будет знание Docker, Puppet, Ansible, Chef и...",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 33,
+  "fields": {
+    "url": "https://khabarovsk.hh.ru/vacancy/67432243?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "title": "Разработчик Oracle (PL/SQL)",
+    "company": "ООО Совкомбанк Технологии",
+    "description": "Разработка банковских продуктов на базе Oracle (PL/SQL)....системы контроля версий Git. Опыт разработки на VBScript. Опыт разработки на одном из языков программирования общего назначения (C#, Java, Python).",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 34,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46691809/?search_id=1658292400548magp6waj7i",
+    "title": "Application Security Engineer",
+    "company": "СберМегаМаркет",
+    "description": "СберМегаМаркет — это онлайн-площадка, на которой можно купить всё необходимое: от телевизора до свежих фруктов. Наши команды помогают людям приобретать товары, не выходя из дома, а партнёрам – развивать свой бизнес. Команда безопасности СберМегаМаркета заботится о конфиденциальности данных своих клиентов…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 35,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46787758/?search_id=1658292400548magp6waj7i",
+    "title": "Инженер сопровождение хранилища данных (SberData)",
+    "company": "СБЕР",
+    "description": "SberData мы создаем централизованное хранилище данных всего Сбера. Это более 350 источников данных и 100+ Пб информации, заказ и получение данных за 15 минут и современный технологический стек работы с данными, включая собственные сборки СУБД на базе Hadoop и Greenplum. Наши решения отмечены международной…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 36,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46757296/?search_id=1658292400548magp6waj7i",
+    "title": "Data Scientist (remote)",
+    "company": "АктивБизнесКонсалт, ООО",
+    "description": "Кто мы? Мы – компания-разработчик IT решений на базе AI в сфере речевых технологий, таких как робот-оператор, речевая аналитика, распознавание речи и пр. На внешнем рынке мы представлены под брендом VS Robotics. Наша команда создает технологичные продукты, которые помогают сокращать расходы на коммуникации…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 37,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46798262/?search_id=1658292400548magp6waj7i",
+    "title": "HR-аналитик",
+    "company": "Самокат",
+    "description": "ПРИГЛАШАЕМ В КОМАНДУ HR-АНАЛИТИКА; Самокат — это онлайн-магазин, который есть в более чем 40 городах России. Мы привозим продукты, товары для дома и косметику и дарим​​​ нашим клиентам то, чего всегда не хватает — время. Чтобы сделать заказ в Самокате, нужно собрать товары в корзину в приложении, оплатить…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 38,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/44770797/?search_id=1658292400548magp6waj7i",
+    "title": "Middle Backend-разработчик C/Go",
+    "company": "Rambler&Co",
+    "description": "Rambler&Co занимает первое место среди медиахолдингов России по размеру ежемесячной аудитории — свыше 47,7 млн человек (по данным Mediascope, Cross Web, март 2022). В него входит «Лента.ру», «Газета.Ru», портал «Рамблер», «Чемпионат», «Секрет фирмы», WMJ.ru, Motor.ru, LiveJournal и ряд других медиаактивов…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 39,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46511903/?search_id=1658292400548magp6waj7i",
+    "title": "DevOps Engineer",
+    "company": "СберЗдоровье",
+    "description": "СберЗдоровье - крупнейшая в России Digital Health платформа, объединяющая различные сервисы цифровой медицины. Сервис начал свою работу в 2012 году под брендом DocDoc. Мы помогли миллионам людей получить помощь и продолжаем повышать качество медицинских услуг. Об IT в цифрах: 3 бизнес-направления; 15…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 40,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46797797/?search_id=1658292400548magp6waj7i",
+    "title": "Python Developer",
+    "company": "Объединенное Кредитное Бюро",
+    "description": "Объединенное Кредитное Бюро – крупнейшее Бюро кредитных историй в России. Мы не выдаем кредиты, мы храним и обрабатываем крупнейший в России массив данных о кредитных историях. Наш уникальный ресурс – самая большая база данных, в которой более 560 миллионов кредитных историй, и мы уделяем большое внимание…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 41,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46798369/?search_id=1658292400548magp6waj7i",
+    "title": "QA Automation Engineer",
+    "company": "Okko",
+    "description": "Okko — один из крупнейших российских VoD-сервисов. Проект стартовал в 2011 году и сегодня представлен на всех ключевых платформах: Smart TV, mobile (IOS и Android), Apple TV, PlayStation 3, 4 и 5, web (ПК). Пользователи Okko могут купить и скачать понравившийся фильм в высоком качестве (8K, 4K, HDR)…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 42,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46806197/?search_id=1658292400548magp6waj7i",
+    "title": "Администратор ИФТ",
+    "company": "СБЕР",
+    "description": "Вакансия открыта в трайбе «Digital Accounting», Трайб разрабатывает и развивает решения в части формирования учета и отчетности на перспективной IT-платформе Банка. Описание команды: У нас территориально распределенная группа сопровождения с площадками в Москве, Санкт-Петербурге и Хабаровске. Ключевая…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 43,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46757297/?search_id=1658292400548magp6waj7i",
+    "title": "Data Science инженер (Kaldi)",
+    "company": "АктивБизнесКонсалт, ООО",
+    "description": "Кто мы? Мы – компания-разработчик IT решений на базе AI в сфере речевых технологий, таких как робот-оператор, речевая аналитика, распознавание речи и пр. На внешнем рынке мы представлены под брендом VS Robotics. Наша команда создает технологичные продукты, которые помогают сокращать расходы на коммуникации…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 44,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46793333/?search_id=1658292400548magp6waj7i",
+    "title": "Data Science инженер, Kaldi (remote)",
+    "company": "АктивБизнесКонсалт, ООО",
+    "description": "Кто мы? Мы – компания-разработчик IT решений на базе AI в сфере речевых технологий, таких как робот-оператор, речевая аналитика, распознавание речи и пр. На внешнем рынке мы представлены под брендом VS Robotics. Наша команда создает технологичные продукты, которые помогают сокращать расходы на коммуникации…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 45,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46798219/?search_id=1658292400548magp6waj7i",
+    "title": "Руководитель отдела маркетинговой аналитики",
+    "company": "Самокат",
+    "description": "ПРИГЛАШАЕМ В КОМАНДУ РУКОВОДИТЕЛЯ ОТДЕЛА МАРКЕТИНГОВОЙ АНАЛИТИКИ; Самокат — сервис #1 в России по числу заказов в сфере e-grocery. Мы создаем новый слой городской инфраструктуры с доставкой продуктов, косметики, лекарств, товаров для дома всего за 15 минут. Чтобы сделать заказ в Самокате, нужно собрать…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 46,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/45817211/?search_id=1658292400548magp6waj7i",
+    "title": "SRE/DevOps Engineer",
+    "company": "СберМегаМаркет",
+    "description": "СберМегаМаркет — это онлайн-площадка, на которой можно купить всё необходимое: от телевизора до свежих фруктов. Наши команды помогают людям приобретать товары, не выходя из дома, а партнёрам – развивать свой бизнес. У нас уже 15 млн уникальных посетителей, 8 тысяч продавцов и более 100 000 заказов день…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 47,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46798359/?search_id=1658292400548magp6waj7i",
+    "title": "QA Automation Engineer",
+    "company": "Okko",
+    "description": "Okko — один из крупнейших российских VoD-сервисов. Проект стартовал в 2011 году и сегодня представлен на всех ключевых платформах: Smart TV, mobile (IOS и Android), Apple TV, PlayStation 3, 4 и 5, web (ПК). Пользователи Okko могут купить и скачать понравившийся фильм в высоком качестве (8K, 4K, HDR)…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 48,
+  "fields": {
+    "url": "https://khabarovsk.hh.ru/vacancy/68005607?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "title": "Администратора DBA",
+    "company": "Сбер. IT",
+    "description": "Сопровождение банковских автоматизированных систем в соответствии с SLA/TLA. Поддержка в рабочем состоянии тестовых и промышленных БД Oracle. Опыт программирования на одном из следующих языков: Bash, PowerShell, Python. Опыт администрирования серверных операционных систем RHEL/CentOS - на уровне системного...",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 49,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46691809/?search_id=1658381736645znhv6978pe",
+    "title": "Application Security Engineer",
+    "company": "СберМегаМаркет",
+    "description": "СберМегаМаркет — это онлайн-площадка, на которой можно купить всё необходимое: от телевизора до свежих фруктов. Наши команды помогают людям приобретать товары, не выходя из дома, а партнёрам – развивать свой бизнес. Команда безопасности СберМегаМаркета заботится о конфиденциальности данных своих клиентов…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 50,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46787758/?search_id=1658381736645znhv6978pe",
+    "title": "Инженер сопровождение хранилища данных (SberData)",
+    "company": "СБЕР",
+    "description": "SberData мы создаем централизованное хранилище данных всего Сбера. Это более 350 источников данных и 100+ Пб информации, заказ и получение данных за 15 минут и современный технологический стек работы с данными, включая собственные сборки СУБД на базе Hadoop и Greenplum. Наши решения отмечены международной…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 51,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46757296/?search_id=1658381736645znhv6978pe",
+    "title": "Data Scientist (remote)",
+    "company": "АктивБизнесКонсалт, ООО",
+    "description": "Кто мы? Мы – компания-разработчик IT решений на базе AI в сфере речевых технологий, таких как робот-оператор, речевая аналитика, распознавание речи и пр. На внешнем рынке мы представлены под брендом VS Robotics. Наша команда создает технологичные продукты, которые помогают сокращать расходы на коммуникации…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 52,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46798262/?search_id=1658381736645znhv6978pe",
+    "title": "HR-аналитик",
+    "company": "Самокат",
+    "description": "ПРИГЛАШАЕМ В КОМАНДУ HR-АНАЛИТИКА; Самокат — это онлайн-магазин, который есть в более чем 40 городах России. Мы привозим продукты, товары для дома и косметику и дарим​​​ нашим клиентам то, чего всегда не хватает — время. Чтобы сделать заказ в Самокате, нужно собрать товары в корзину в приложении, оплатить…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 53,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/44770797/?search_id=1658381736645znhv6978pe",
+    "title": "Middle Backend-разработчик C/Go",
+    "company": "Rambler&Co",
+    "description": "Rambler&Co занимает первое место среди медиахолдингов России по размеру ежемесячной аудитории — свыше 47,7 млн человек (по данным Mediascope, Cross Web, март 2022). В него входит «Лента.ру», «Газета.Ru», портал «Рамблер», «Чемпионат», «Секрет фирмы», WMJ.ru, Motor.ru, LiveJournal и ряд других медиаактивов…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 54,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46511903/?search_id=1658381736645znhv6978pe",
+    "title": "DevOps Engineer",
+    "company": "СберЗдоровье",
+    "description": "СберЗдоровье - крупнейшая в России Digital Health платформа, объединяющая различные сервисы цифровой медицины. Сервис начал свою работу в 2012 году под брендом DocDoc. Мы помогли миллионам людей получить помощь и продолжаем повышать качество медицинских услуг. Об IT в цифрах: 3 бизнес-направления; 15…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 55,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46797797/?search_id=1658381736645znhv6978pe",
+    "title": "Python Developer",
+    "company": "Объединенное Кредитное Бюро",
+    "description": "Объединенное Кредитное Бюро – крупнейшее Бюро кредитных историй в России. Мы не выдаем кредиты, мы храним и обрабатываем крупнейший в России массив данных о кредитных историях. Наш уникальный ресурс – самая большая база данных, в которой более 560 миллионов кредитных историй, и мы уделяем большое внимание…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 56,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46798369/?search_id=1658381736645znhv6978pe",
+    "title": "QA Automation Engineer",
+    "company": "Okko",
+    "description": "Okko — один из крупнейших российских VoD-сервисов. Проект стартовал в 2011 году и сегодня представлен на всех ключевых платформах: Smart TV, mobile (IOS и Android), Apple TV, PlayStation 3, 4 и 5, web (ПК). Пользователи Okko могут купить и скачать понравившийся фильм в высоком качестве (8K, 4K, HDR)…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 57,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46806197/?search_id=1658381736645znhv6978pe",
+    "title": "Администратор ИФТ",
+    "company": "СБЕР",
+    "description": "Вакансия открыта в трайбе «Digital Accounting», Трайб разрабатывает и развивает решения в части формирования учета и отчетности на перспективной IT-платформе Банка. Описание команды: У нас территориально распределенная группа сопровождения с площадками в Москве, Санкт-Петербурге и Хабаровске. Ключевая…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 58,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46757297/?search_id=1658381736645znhv6978pe",
+    "title": "Data Science инженер (Kaldi)",
+    "company": "АктивБизнесКонсалт, ООО",
+    "description": "Кто мы? Мы – компания-разработчик IT решений на базе AI в сфере речевых технологий, таких как робот-оператор, речевая аналитика, распознавание речи и пр. На внешнем рынке мы представлены под брендом VS Robotics. Наша команда создает технологичные продукты, которые помогают сокращать расходы на коммуникации…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 59,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46793333/?search_id=1658381736645znhv6978pe",
+    "title": "Data Science инженер, Kaldi (remote)",
+    "company": "АктивБизнесКонсалт, ООО",
+    "description": "Кто мы? Мы – компания-разработчик IT решений на базе AI в сфере речевых технологий, таких как робот-оператор, речевая аналитика, распознавание речи и пр. На внешнем рынке мы представлены под брендом VS Robotics. Наша команда создает технологичные продукты, которые помогают сокращать расходы на коммуникации…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 60,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46798219/?search_id=1658381736645znhv6978pe",
+    "title": "Руководитель отдела маркетинговой аналитики",
+    "company": "Самокат",
+    "description": "ПРИГЛАШАЕМ В КОМАНДУ РУКОВОДИТЕЛЯ ОТДЕЛА МАРКЕТИНГОВОЙ АНАЛИТИКИ; Самокат — сервис #1 в России по числу заказов в сфере e-grocery. Мы создаем новый слой городской инфраструктуры с доставкой продуктов, косметики, лекарств, товаров для дома всего за 15 минут. Чтобы сделать заказ в Самокате, нужно собрать…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 61,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/45817211/?search_id=1658381736645znhv6978pe",
+    "title": "SRE/DevOps Engineer",
+    "company": "СберМегаМаркет",
+    "description": "СберМегаМаркет — это онлайн-площадка, на которой можно купить всё необходимое: от телевизора до свежих фруктов. Наши команды помогают людям приобретать товары, не выходя из дома, а партнёрам – развивать свой бизнес. У нас уже 15 млн уникальных посетителей, 8 тысяч продавцов и более 100 000 заказов день…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 62,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46798359/?search_id=1658381736645znhv6978pe",
+    "title": "QA Automation Engineer",
+    "company": "Okko",
+    "description": "Okko — один из крупнейших российских VoD-сервисов. Проект стартовал в 2011 году и сегодня представлен на всех ключевых платформах: Smart TV, mobile (IOS и Android), Apple TV, PlayStation 3, 4 и 5, web (ПК). Пользователи Okko могут купить и скачать понравившийся фильм в высоком качестве (8K, 4K, HDR)…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 63,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46756813/?search_id=1658381736645znhv6978pe",
+    "title": "Машинист бульдозера",
+    "company": "ООО \"РемстройГарант\"",
+    "description": "Работа на бульдозере ЧЕТРА Т-11, Т-20 с клавишным управлением. Содержание техники в чистом исправном состоянии, ремонт техники. Соблюдение техники безопасности. Знание правил и инструкции по эксплуатации бульдозера. Требования: Наличие Удостоверение тракториста-машиниста ОБЯЗАТЕЛЬНО; Опыт работы от…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 64,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/45538259/?search_id=1658381736645znhv6978pe",
+    "title": "Директор магазина Пеликан",
+    "company": "БИЗНЕСКОНСАЛТ",
+    "description": "Управление персоналом магазина; Организация рабочих процессов в магазине; Обеспечение выполнения плановых показателей магазина (количественных и качественных); Контроль кассовой дисциплины; Контроль соблюдения стандартов обслуживания, торговой и трудовой дисциплины; Ведение отчетности, аналитики работы…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 65,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/45538307/?search_id=1658381736645znhv6978pe",
+    "title": "Контролер-охранник",
+    "company": "БИЗНЕСКОНСАЛТ",
+    "description": "Охрана материальных ценностей и товара, препятствование их порче и хищению; контроль потока входящих и выходящих людей, вносимой и выносимой ручной клади; задержание лиц, совершивших или попытавшихся совершить кражу, и передача их сотрудникам органов внутренних дел; передача старшему смены информации…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 66,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/45538293/?search_id=1658381736645znhv6978pe",
+    "title": "Помощник повара",
+    "company": "БИЗНЕСКОНСАЛТ",
+    "description": "Выпечка блинов в дневную смену,в ночную нарезка, чистка недостающих овощей,сборка салата \"Цезарь\". Требования: Соблюдать правила и нормы охраны труда и техники безопасности труда, санитарные требования и правила личной гигиены, производственной и трудовой дисциплины, правила внутреннего трудового распорядка…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 67,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/45538283/?search_id=1658381736645znhv6978pe",
+    "title": "Фасовщица / фасовщик",
+    "company": "БИЗНЕСКОНСАЛТ",
+    "description": "Фасовка товаров для продажи конечному потребителю Требования: Внимательность, честность, порядочность, аккуратность. Условия: Официальное оформление по Трудовому Кодексу РФ с первого рабочего дня; Своевременная выплата заработной платы 2 раза в месяц без задержек; Обучение перед трудоустройством (за…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 68,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/45538260/?search_id=1658381736645znhv6978pe",
+    "title": "Администратор торгового зала",
+    "company": "БИЗНЕСКОНСАЛТ",
+    "description": "​​​Организация работы сотрудников торгового зала; Контроль соблюдения выкладки товара, чистоты торгового зала; Проверка сроков годности продаваемого товара; Контроль соблюдения стандартов обслуживания в торговом зале; Решение всех административных вопросов. Требования: Опыт работы на аналогичной должности…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 69,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46691809/?search_id=1658381769189c3jygba2bvk",
+    "title": "Application Security Engineer",
+    "company": "СберМегаМаркет",
+    "description": "СберМегаМаркет — это онлайн-площадка, на которой можно купить всё необходимое: от телевизора до свежих фруктов. Наши команды помогают людям приобретать товары, не выходя из дома, а партнёрам – развивать свой бизнес. Команда безопасности СберМегаМаркета заботится о конфиденциальности данных своих клиентов…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 70,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46787758/?search_id=1658381769189c3jygba2bvk",
+    "title": "Инженер сопровождение хранилища данных (SberData)",
+    "company": "СБЕР",
+    "description": "SberData мы создаем централизованное хранилище данных всего Сбера. Это более 350 источников данных и 100+ Пб информации, заказ и получение данных за 15 минут и современный технологический стек работы с данными, включая собственные сборки СУБД на базе Hadoop и Greenplum. Наши решения отмечены международной…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 71,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46757296/?search_id=1658381769189c3jygba2bvk",
+    "title": "Data Scientist (remote)",
+    "company": "АктивБизнесКонсалт, ООО",
+    "description": "Кто мы? Мы – компания-разработчик IT решений на базе AI в сфере речевых технологий, таких как робот-оператор, речевая аналитика, распознавание речи и пр. На внешнем рынке мы представлены под брендом VS Robotics. Наша команда создает технологичные продукты, которые помогают сокращать расходы на коммуникации…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 72,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46798262/?search_id=1658381769189c3jygba2bvk",
+    "title": "HR-аналитик",
+    "company": "Самокат",
+    "description": "ПРИГЛАШАЕМ В КОМАНДУ HR-АНАЛИТИКА; Самокат — это онлайн-магазин, который есть в более чем 40 городах России. Мы привозим продукты, товары для дома и косметику и дарим​​​ нашим клиентам то, чего всегда не хватает — время. Чтобы сделать заказ в Самокате, нужно собрать товары в корзину в приложении, оплатить…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 73,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/44770797/?search_id=1658381769189c3jygba2bvk",
+    "title": "Middle Backend-разработчик C/Go",
+    "company": "Rambler&Co",
+    "description": "Rambler&Co занимает первое место среди медиахолдингов России по размеру ежемесячной аудитории — свыше 47,7 млн человек (по данным Mediascope, Cross Web, март 2022). В него входит «Лента.ру», «Газета.Ru», портал «Рамблер», «Чемпионат», «Секрет фирмы», WMJ.ru, Motor.ru, LiveJournal и ряд других медиаактивов…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 74,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46511903/?search_id=1658381769189c3jygba2bvk",
+    "title": "DevOps Engineer",
+    "company": "СберЗдоровье",
+    "description": "СберЗдоровье - крупнейшая в России Digital Health платформа, объединяющая различные сервисы цифровой медицины. Сервис начал свою работу в 2012 году под брендом DocDoc. Мы помогли миллионам людей получить помощь и продолжаем повышать качество медицинских услуг. Об IT в цифрах: 3 бизнес-направления; 15…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 75,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46797797/?search_id=1658381769189c3jygba2bvk",
+    "title": "Python Developer",
+    "company": "Объединенное Кредитное Бюро",
+    "description": "Объединенное Кредитное Бюро – крупнейшее Бюро кредитных историй в России. Мы не выдаем кредиты, мы храним и обрабатываем крупнейший в России массив данных о кредитных историях. Наш уникальный ресурс – самая большая база данных, в которой более 560 миллионов кредитных историй, и мы уделяем большое внимание…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 76,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46798369/?search_id=1658381769189c3jygba2bvk",
+    "title": "QA Automation Engineer",
+    "company": "Okko",
+    "description": "Okko — один из крупнейших российских VoD-сервисов. Проект стартовал в 2011 году и сегодня представлен на всех ключевых платформах: Smart TV, mobile (IOS и Android), Apple TV, PlayStation 3, 4 и 5, web (ПК). Пользователи Okko могут купить и скачать понравившийся фильм в высоком качестве (8K, 4K, HDR)…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 77,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46806197/?search_id=1658381769189c3jygba2bvk",
+    "title": "Администратор ИФТ",
+    "company": "СБЕР",
+    "description": "Вакансия открыта в трайбе «Digital Accounting», Трайб разрабатывает и развивает решения в части формирования учета и отчетности на перспективной IT-платформе Банка. Описание команды: У нас территориально распределенная группа сопровождения с площадками в Москве, Санкт-Петербурге и Хабаровске. Ключевая…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 78,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46757297/?search_id=1658381769189c3jygba2bvk",
+    "title": "Data Science инженер (Kaldi)",
+    "company": "АктивБизнесКонсалт, ООО",
+    "description": "Кто мы? Мы – компания-разработчик IT решений на базе AI в сфере речевых технологий, таких как робот-оператор, речевая аналитика, распознавание речи и пр. На внешнем рынке мы представлены под брендом VS Robotics. Наша команда создает технологичные продукты, которые помогают сокращать расходы на коммуникации…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 79,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46793333/?search_id=1658381769189c3jygba2bvk",
+    "title": "Data Science инженер, Kaldi (remote)",
+    "company": "АктивБизнесКонсалт, ООО",
+    "description": "Кто мы? Мы – компания-разработчик IT решений на базе AI в сфере речевых технологий, таких как робот-оператор, речевая аналитика, распознавание речи и пр. На внешнем рынке мы представлены под брендом VS Robotics. Наша команда создает технологичные продукты, которые помогают сокращать расходы на коммуникации…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 80,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46798219/?search_id=1658381769189c3jygba2bvk",
+    "title": "Руководитель отдела маркетинговой аналитики",
+    "company": "Самокат",
+    "description": "ПРИГЛАШАЕМ В КОМАНДУ РУКОВОДИТЕЛЯ ОТДЕЛА МАРКЕТИНГОВОЙ АНАЛИТИКИ; Самокат — сервис #1 в России по числу заказов в сфере e-grocery. Мы создаем новый слой городской инфраструктуры с доставкой продуктов, косметики, лекарств, товаров для дома всего за 15 минут. Чтобы сделать заказ в Самокате, нужно собрать…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 81,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/45817211/?search_id=1658381769189c3jygba2bvk",
+    "title": "SRE/DevOps Engineer",
+    "company": "СберМегаМаркет",
+    "description": "СберМегаМаркет — это онлайн-площадка, на которой можно купить всё необходимое: от телевизора до свежих фруктов. Наши команды помогают людям приобретать товары, не выходя из дома, а партнёрам – развивать свой бизнес. У нас уже 15 млн уникальных посетителей, 8 тысяч продавцов и более 100 000 заказов день…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 82,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46798359/?search_id=1658381769189c3jygba2bvk",
+    "title": "QA Automation Engineer",
+    "company": "Okko",
+    "description": "Okko — один из крупнейших российских VoD-сервисов. Проект стартовал в 2011 году и сегодня представлен на всех ключевых платформах: Smart TV, mobile (IOS и Android), Apple TV, PlayStation 3, 4 и 5, web (ПК). Пользователи Okko могут купить и скачать понравившийся фильм в высоком качестве (8K, 4K, HDR)…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 83,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46756813/?search_id=1658381769189c3jygba2bvk",
+    "title": "Машинист бульдозера",
+    "company": "ООО \"РемстройГарант\"",
+    "description": "Работа на бульдозере ЧЕТРА Т-11, Т-20 с клавишным управлением. Содержание техники в чистом исправном состоянии, ремонт техники. Соблюдение техники безопасности. Знание правил и инструкции по эксплуатации бульдозера. Требования: Наличие Удостоверение тракториста-машиниста ОБЯЗАТЕЛЬНО; Опыт работы от…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 84,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/45538259/?search_id=1658381769189c3jygba2bvk",
+    "title": "Директор магазина Пеликан",
+    "company": "БИЗНЕСКОНСАЛТ",
+    "description": "Управление персоналом магазина; Организация рабочих процессов в магазине; Обеспечение выполнения плановых показателей магазина (количественных и качественных); Контроль кассовой дисциплины; Контроль соблюдения стандартов обслуживания, торговой и трудовой дисциплины; Ведение отчетности, аналитики работы…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 85,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/45538307/?search_id=1658381769189c3jygba2bvk",
+    "title": "Контролер-охранник",
+    "company": "БИЗНЕСКОНСАЛТ",
+    "description": "Охрана материальных ценностей и товара, препятствование их порче и хищению; контроль потока входящих и выходящих людей, вносимой и выносимой ручной клади; задержание лиц, совершивших или попытавшихся совершить кражу, и передача их сотрудникам органов внутренних дел; передача старшему смены информации…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 86,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/45538293/?search_id=1658381769189c3jygba2bvk",
+    "title": "Помощник повара",
+    "company": "БИЗНЕСКОНСАЛТ",
+    "description": "Выпечка блинов в дневную смену,в ночную нарезка, чистка недостающих овощей,сборка салата \"Цезарь\". Требования: Соблюдать правила и нормы охраны труда и техники безопасности труда, санитарные требования и правила личной гигиены, производственной и трудовой дисциплины, правила внутреннего трудового распорядка…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 87,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/45538283/?search_id=1658381769189c3jygba2bvk",
+    "title": "Фасовщица / фасовщик",
+    "company": "БИЗНЕСКОНСАЛТ",
+    "description": "Фасовка товаров для продажи конечному потребителю Требования: Внимательность, честность, порядочность, аккуратность. Условия: Официальное оформление по Трудовому Кодексу РФ с первого рабочего дня; Своевременная выплата заработной платы 2 раза в месяц без задержек; Обучение перед трудоустройством (за…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 88,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/45538260/?search_id=1658381769189c3jygba2bvk",
+    "title": "Администратор торгового зала",
+    "company": "БИЗНЕСКОНСАЛТ",
+    "description": "​​​Организация работы сотрудников торгового зала; Контроль соблюдения выкладки товара, чистоты торгового зала; Проверка сроков годности продаваемого товара; Контроль соблюдения стандартов обслуживания в торговом зале; Решение всех административных вопросов. Требования: Опыт работы на аналогичной должности…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 89,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46691809/?search_id=16583820461947yt4uu06yzd",
+    "title": "Application Security Engineer",
+    "company": "СберМегаМаркет",
+    "description": "СберМегаМаркет — это онлайн-площадка, на которой можно купить всё необходимое: от телевизора до свежих фруктов. Наши команды помогают людям приобретать товары, не выходя из дома, а партнёрам – развивать свой бизнес. Команда безопасности СберМегаМаркета заботится о конфиденциальности данных своих клиентов…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 90,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46787758/?search_id=16583820461947yt4uu06yzd",
+    "title": "Инженер сопровождение хранилища данных (SberData)",
+    "company": "СБЕР",
+    "description": "SberData мы создаем централизованное хранилище данных всего Сбера. Это более 350 источников данных и 100+ Пб информации, заказ и получение данных за 15 минут и современный технологический стек работы с данными, включая собственные сборки СУБД на базе Hadoop и Greenplum. Наши решения отмечены международной…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 91,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46757296/?search_id=16583820461947yt4uu06yzd",
+    "title": "Data Scientist (remote)",
+    "company": "АктивБизнесКонсалт, ООО",
+    "description": "Кто мы? Мы – компания-разработчик IT решений на базе AI в сфере речевых технологий, таких как робот-оператор, речевая аналитика, распознавание речи и пр. На внешнем рынке мы представлены под брендом VS Robotics. Наша команда создает технологичные продукты, которые помогают сокращать расходы на коммуникации…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 92,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46798262/?search_id=16583820461947yt4uu06yzd",
+    "title": "HR-аналитик",
+    "company": "Самокат",
+    "description": "ПРИГЛАШАЕМ В КОМАНДУ HR-АНАЛИТИКА; Самокат — это онлайн-магазин, который есть в более чем 40 городах России. Мы привозим продукты, товары для дома и косметику и дарим​​​ нашим клиентам то, чего всегда не хватает — время. Чтобы сделать заказ в Самокате, нужно собрать товары в корзину в приложении, оплатить…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 93,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/44770797/?search_id=16583820461947yt4uu06yzd",
+    "title": "Middle Backend-разработчик C/Go",
+    "company": "Rambler&Co",
+    "description": "Rambler&Co занимает первое место среди медиахолдингов России по размеру ежемесячной аудитории — свыше 47,7 млн человек (по данным Mediascope, Cross Web, март 2022). В него входит «Лента.ру», «Газета.Ru», портал «Рамблер», «Чемпионат», «Секрет фирмы», WMJ.ru, Motor.ru, LiveJournal и ряд других медиаактивов…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 94,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46511903/?search_id=16583820461947yt4uu06yzd",
+    "title": "DevOps Engineer",
+    "company": "СберЗдоровье",
+    "description": "СберЗдоровье - крупнейшая в России Digital Health платформа, объединяющая различные сервисы цифровой медицины. Сервис начал свою работу в 2012 году под брендом DocDoc. Мы помогли миллионам людей получить помощь и продолжаем повышать качество медицинских услуг. Об IT в цифрах: 3 бизнес-направления; 15…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 95,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46797797/?search_id=16583820461947yt4uu06yzd",
+    "title": "Python Developer",
+    "company": "Объединенное Кредитное Бюро",
+    "description": "Объединенное Кредитное Бюро – крупнейшее Бюро кредитных историй в России. Мы не выдаем кредиты, мы храним и обрабатываем крупнейший в России массив данных о кредитных историях. Наш уникальный ресурс – самая большая база данных, в которой более 560 миллионов кредитных историй, и мы уделяем большое внимание…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 96,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46798369/?search_id=16583820461947yt4uu06yzd",
+    "title": "QA Automation Engineer",
+    "company": "Okko",
+    "description": "Okko — один из крупнейших российских VoD-сервисов. Проект стартовал в 2011 году и сегодня представлен на всех ключевых платформах: Smart TV, mobile (IOS и Android), Apple TV, PlayStation 3, 4 и 5, web (ПК). Пользователи Okko могут купить и скачать понравившийся фильм в высоком качестве (8K, 4K, HDR)…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 97,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46806197/?search_id=16583820461947yt4uu06yzd",
+    "title": "Администратор ИФТ",
+    "company": "СБЕР",
+    "description": "Вакансия открыта в трайбе «Digital Accounting», Трайб разрабатывает и развивает решения в части формирования учета и отчетности на перспективной IT-платформе Банка. Описание команды: У нас территориально распределенная группа сопровождения с площадками в Москве, Санкт-Петербурге и Хабаровске. Ключевая…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 98,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46757297/?search_id=16583820461947yt4uu06yzd",
+    "title": "Data Science инженер (Kaldi)",
+    "company": "АктивБизнесКонсалт, ООО",
+    "description": "Кто мы? Мы – компания-разработчик IT решений на базе AI в сфере речевых технологий, таких как робот-оператор, речевая аналитика, распознавание речи и пр. На внешнем рынке мы представлены под брендом VS Robotics. Наша команда создает технологичные продукты, которые помогают сокращать расходы на коммуникации…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 99,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46793333/?search_id=16583820461947yt4uu06yzd",
+    "title": "Data Science инженер, Kaldi (remote)",
+    "company": "АктивБизнесКонсалт, ООО",
+    "description": "Кто мы? Мы – компания-разработчик IT решений на базе AI в сфере речевых технологий, таких как робот-оператор, речевая аналитика, распознавание речи и пр. На внешнем рынке мы представлены под брендом VS Robotics. Наша команда создает технологичные продукты, которые помогают сокращать расходы на коммуникации…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 100,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46798219/?search_id=16583820461947yt4uu06yzd",
+    "title": "Руководитель отдела маркетинговой аналитики",
+    "company": "Самокат",
+    "description": "ПРИГЛАШАЕМ В КОМАНДУ РУКОВОДИТЕЛЯ ОТДЕЛА МАРКЕТИНГОВОЙ АНАЛИТИКИ; Самокат — сервис #1 в России по числу заказов в сфере e-grocery. Мы создаем новый слой городской инфраструктуры с доставкой продуктов, косметики, лекарств, товаров для дома всего за 15 минут. Чтобы сделать заказ в Самокате, нужно собрать…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 101,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/45817211/?search_id=16583820461947yt4uu06yzd",
+    "title": "SRE/DevOps Engineer",
+    "company": "СберМегаМаркет",
+    "description": "СберМегаМаркет — это онлайн-площадка, на которой можно купить всё необходимое: от телевизора до свежих фруктов. Наши команды помогают людям приобретать товары, не выходя из дома, а партнёрам – развивать свой бизнес. У нас уже 15 млн уникальных посетителей, 8 тысяч продавцов и более 100 000 заказов день…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 102,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46798359/?search_id=16583820461947yt4uu06yzd",
+    "title": "QA Automation Engineer",
+    "company": "Okko",
+    "description": "Okko — один из крупнейших российских VoD-сервисов. Проект стартовал в 2011 году и сегодня представлен на всех ключевых платформах: Smart TV, mobile (IOS и Android), Apple TV, PlayStation 3, 4 и 5, web (ПК). Пользователи Okko могут купить и скачать понравившийся фильм в высоком качестве (8K, 4K, HDR)…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 103,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46691809/?search_id=16583842817289gmvd0f13hw",
+    "title": "Application Security Engineer",
+    "company": "СберМегаМаркет",
+    "description": "СберМегаМаркет — это онлайн-площадка, на которой можно купить всё необходимое: от телевизора до свежих фруктов. Наши команды помогают людям приобретать товары, не выходя из дома, а партнёрам – развивать свой бизнес. Команда безопасности СберМегаМаркета заботится о конфиденциальности данных своих клиентов…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 104,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46787758/?search_id=16583842817289gmvd0f13hw",
+    "title": "Инженер сопровождение хранилища данных (SberData)",
+    "company": "СБЕР",
+    "description": "SberData мы создаем централизованное хранилище данных всего Сбера. Это более 350 источников данных и 100+ Пб информации, заказ и получение данных за 15 минут и современный технологический стек работы с данными, включая собственные сборки СУБД на базе Hadoop и Greenplum. Наши решения отмечены международной…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 105,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46757296/?search_id=16583842817289gmvd0f13hw",
+    "title": "Data Scientist (remote)",
+    "company": "АктивБизнесКонсалт, ООО",
+    "description": "Кто мы? Мы – компания-разработчик IT решений на базе AI в сфере речевых технологий, таких как робот-оператор, речевая аналитика, распознавание речи и пр. На внешнем рынке мы представлены под брендом VS Robotics. Наша команда создает технологичные продукты, которые помогают сокращать расходы на коммуникации…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 106,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46798219/?search_id=16583842817289gmvd0f13hw",
+    "title": "Руководитель отдела маркетинговой аналитики",
+    "company": "Самокат",
+    "description": "ПРИГЛАШАЕМ В КОМАНДУ РУКОВОДИТЕЛЯ ОТДЕЛА МАРКЕТИНГОВОЙ АНАЛИТИКИ; Самокат — сервис #1 в России по числу заказов в сфере e-grocery. Мы создаем новый слой городской инфраструктуры с доставкой продуктов, косметики, лекарств, товаров для дома всего за 15 минут. Чтобы сделать заказ в Самокате, нужно собрать…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 107,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/44770797/?search_id=16583842817289gmvd0f13hw",
+    "title": "Middle Backend-разработчик C/Go",
+    "company": "Rambler&Co",
+    "description": "Rambler&Co занимает первое место среди медиахолдингов России по размеру ежемесячной аудитории — свыше 47,7 млн человек (по данным Mediascope, Cross Web, март 2022). В него входит «Лента.ру», «Газета.Ru», портал «Рамблер», «Чемпионат», «Секрет фирмы», WMJ.ru, Motor.ru, LiveJournal и ряд других медиаактивов…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 108,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46511903/?search_id=16583842817289gmvd0f13hw",
+    "title": "DevOps Engineer",
+    "company": "СберЗдоровье",
+    "description": "СберЗдоровье - крупнейшая в России Digital Health платформа, объединяющая различные сервисы цифровой медицины. Сервис начал свою работу в 2012 году под брендом DocDoc. Мы помогли миллионам людей получить помощь и продолжаем повышать качество медицинских услуг. Об IT в цифрах: 3 бизнес-направления; 15…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 109,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46797797/?search_id=16583842817289gmvd0f13hw",
+    "title": "Python Developer",
+    "company": "Объединенное Кредитное Бюро",
+    "description": "Объединенное Кредитное Бюро – крупнейшее Бюро кредитных историй в России. Мы не выдаем кредиты, мы храним и обрабатываем крупнейший в России массив данных о кредитных историях. Наш уникальный ресурс – самая большая база данных, в которой более 560 миллионов кредитных историй, и мы уделяем большое внимание…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 110,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46798369/?search_id=16583842817289gmvd0f13hw",
+    "title": "QA Automation Engineer",
+    "company": "Okko",
+    "description": "Okko — один из крупнейших российских VoD-сервисов. Проект стартовал в 2011 году и сегодня представлен на всех ключевых платформах: Smart TV, mobile (IOS и Android), Apple TV, PlayStation 3, 4 и 5, web (ПК). Пользователи Okko могут купить и скачать понравившийся фильм в высоком качестве (8K, 4K, HDR)…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 111,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46806197/?search_id=16583842817289gmvd0f13hw",
+    "title": "Администратор ИФТ",
+    "company": "СБЕР",
+    "description": "Вакансия открыта в трайбе «Digital Accounting», Трайб разрабатывает и развивает решения в части формирования учета и отчетности на перспективной IT-платформе Банка. Описание команды: У нас территориально распределенная группа сопровождения с площадками в Москве, Санкт-Петербурге и Хабаровске. Ключевая…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 112,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46757297/?search_id=16583842817289gmvd0f13hw",
+    "title": "Data Science инженер (Kaldi)",
+    "company": "АктивБизнесКонсалт, ООО",
+    "description": "Кто мы? Мы – компания-разработчик IT решений на базе AI в сфере речевых технологий, таких как робот-оператор, речевая аналитика, распознавание речи и пр. На внешнем рынке мы представлены под брендом VS Robotics. Наша команда создает технологичные продукты, которые помогают сокращать расходы на коммуникации…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 113,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46793333/?search_id=16583842817289gmvd0f13hw",
+    "title": "Data Science инженер, Kaldi (remote)",
+    "company": "АктивБизнесКонсалт, ООО",
+    "description": "Кто мы? Мы – компания-разработчик IT решений на базе AI в сфере речевых технологий, таких как робот-оператор, речевая аналитика, распознавание речи и пр. На внешнем рынке мы представлены под брендом VS Robotics. Наша команда создает технологичные продукты, которые помогают сокращать расходы на коммуникации…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 114,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46798262/?search_id=16583842817289gmvd0f13hw",
+    "title": "HR-аналитик",
+    "company": "Самокат",
+    "description": "ПРИГЛАШАЕМ В КОМАНДУ HR-АНАЛИТИКА; Самокат — это онлайн-магазин, который есть в более чем 40 городах России. Мы привозим продукты, товары для дома и косметику и дарим​​​ нашим клиентам то, чего всегда не хватает — время. Чтобы сделать заказ в Самокате, нужно собрать товары в корзину в приложении, оплатить…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 115,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/45817211/?search_id=16583842817289gmvd0f13hw",
+    "title": "SRE/DevOps Engineer",
+    "company": "СберМегаМаркет",
+    "description": "СберМегаМаркет — это онлайн-площадка, на которой можно купить всё необходимое: от телевизора до свежих фруктов. Наши команды помогают людям приобретать товары, не выходя из дома, а партнёрам – развивать свой бизнес. У нас уже 15 млн уникальных посетителей, 8 тысяч продавцов и более 100 000 заказов день…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 116,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46798359/?search_id=16583842817289gmvd0f13hw",
+    "title": "QA Automation Engineer",
+    "company": "Okko",
+    "description": "Okko — один из крупнейших российских VoD-сервисов. Проект стартовал в 2011 году и сегодня представлен на всех ключевых платформах: Smart TV, mobile (IOS и Android), Apple TV, PlayStation 3, 4 и 5, web (ПК). Пользователи Okko могут купить и скачать понравившийся фильм в высоком качестве (8K, 4K, HDR)…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 117,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46691809/?search_id=16583846793803oa0v9fmvoa",
+    "title": "Application Security Engineer",
+    "company": "СберМегаМаркет",
+    "description": "СберМегаМаркет — это онлайн-площадка, на которой можно купить всё необходимое: от телевизора до свежих фруктов. Наши команды помогают людям приобретать товары, не выходя из дома, а партнёрам – развивать свой бизнес. Команда безопасности СберМегаМаркета заботится о конфиденциальности данных своих клиентов…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 118,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46787758/?search_id=16583846793803oa0v9fmvoa",
+    "title": "Инженер сопровождение хранилища данных (SberData)",
+    "company": "СБЕР",
+    "description": "SberData мы создаем централизованное хранилище данных всего Сбера. Это более 350 источников данных и 100+ Пб информации, заказ и получение данных за 15 минут и современный технологический стек работы с данными, включая собственные сборки СУБД на базе Hadoop и Greenplum. Наши решения отмечены международной…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 119,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46757296/?search_id=16583846793803oa0v9fmvoa",
+    "title": "Data Scientist (remote)",
+    "company": "АктивБизнесКонсалт, ООО",
+    "description": "Кто мы? Мы – компания-разработчик IT решений на базе AI в сфере речевых технологий, таких как робот-оператор, речевая аналитика, распознавание речи и пр. На внешнем рынке мы представлены под брендом VS Robotics. Наша команда создает технологичные продукты, которые помогают сокращать расходы на коммуникации…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 120,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46798219/?search_id=16583846793803oa0v9fmvoa",
+    "title": "Руководитель отдела маркетинговой аналитики",
+    "company": "Самокат",
+    "description": "ПРИГЛАШАЕМ В КОМАНДУ РУКОВОДИТЕЛЯ ОТДЕЛА МАРКЕТИНГОВОЙ АНАЛИТИКИ; Самокат — сервис #1 в России по числу заказов в сфере e-grocery. Мы создаем новый слой городской инфраструктуры с доставкой продуктов, косметики, лекарств, товаров для дома всего за 15 минут. Чтобы сделать заказ в Самокате, нужно собрать…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 121,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/44770797/?search_id=16583846793803oa0v9fmvoa",
+    "title": "Middle Backend-разработчик C/Go",
+    "company": "Rambler&Co",
+    "description": "Rambler&Co занимает первое место среди медиахолдингов России по размеру ежемесячной аудитории — свыше 47,7 млн человек (по данным Mediascope, Cross Web, март 2022). В него входит «Лента.ру», «Газета.Ru», портал «Рамблер», «Чемпионат», «Секрет фирмы», WMJ.ru, Motor.ru, LiveJournal и ряд других медиаактивов…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 122,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46511903/?search_id=16583846793803oa0v9fmvoa",
+    "title": "DevOps Engineer",
+    "company": "СберЗдоровье",
+    "description": "СберЗдоровье - крупнейшая в России Digital Health платформа, объединяющая различные сервисы цифровой медицины. Сервис начал свою работу в 2012 году под брендом DocDoc. Мы помогли миллионам людей получить помощь и продолжаем повышать качество медицинских услуг. Об IT в цифрах: 3 бизнес-направления; 15…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 123,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46797797/?search_id=16583846793803oa0v9fmvoa",
+    "title": "Python Developer",
+    "company": "Объединенное Кредитное Бюро",
+    "description": "Объединенное Кредитное Бюро – крупнейшее Бюро кредитных историй в России. Мы не выдаем кредиты, мы храним и обрабатываем крупнейший в России массив данных о кредитных историях. Наш уникальный ресурс – самая большая база данных, в которой более 560 миллионов кредитных историй, и мы уделяем большое внимание…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 124,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46798369/?search_id=16583846793803oa0v9fmvoa",
+    "title": "QA Automation Engineer",
+    "company": "Okko",
+    "description": "Okko — один из крупнейших российских VoD-сервисов. Проект стартовал в 2011 году и сегодня представлен на всех ключевых платформах: Smart TV, mobile (IOS и Android), Apple TV, PlayStation 3, 4 и 5, web (ПК). Пользователи Okko могут купить и скачать понравившийся фильм в высоком качестве (8K, 4K, HDR)…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 125,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46806197/?search_id=16583846793803oa0v9fmvoa",
+    "title": "Администратор ИФТ",
+    "company": "СБЕР",
+    "description": "Вакансия открыта в трайбе «Digital Accounting», Трайб разрабатывает и развивает решения в части формирования учета и отчетности на перспективной IT-платформе Банка. Описание команды: У нас территориально распределенная группа сопровождения с площадками в Москве, Санкт-Петербурге и Хабаровске. Ключевая…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 126,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46757297/?search_id=16583846793803oa0v9fmvoa",
+    "title": "Data Science инженер (Kaldi)",
+    "company": "АктивБизнесКонсалт, ООО",
+    "description": "Кто мы? Мы – компания-разработчик IT решений на базе AI в сфере речевых технологий, таких как робот-оператор, речевая аналитика, распознавание речи и пр. На внешнем рынке мы представлены под брендом VS Robotics. Наша команда создает технологичные продукты, которые помогают сокращать расходы на коммуникации…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 127,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46793333/?search_id=16583846793803oa0v9fmvoa",
+    "title": "Data Science инженер, Kaldi (remote)",
+    "company": "АктивБизнесКонсалт, ООО",
+    "description": "Кто мы? Мы – компания-разработчик IT решений на базе AI в сфере речевых технологий, таких как робот-оператор, речевая аналитика, распознавание речи и пр. На внешнем рынке мы представлены под брендом VS Robotics. Наша команда создает технологичные продукты, которые помогают сокращать расходы на коммуникации…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 128,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46798262/?search_id=16583846793803oa0v9fmvoa",
+    "title": "HR-аналитик",
+    "company": "Самокат",
+    "description": "ПРИГЛАШАЕМ В КОМАНДУ HR-АНАЛИТИКА; Самокат — это онлайн-магазин, который есть в более чем 40 городах России. Мы привозим продукты, товары для дома и косметику и дарим​​​ нашим клиентам то, чего всегда не хватает — время. Чтобы сделать заказ в Самокате, нужно собрать товары в корзину в приложении, оплатить…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 129,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/45817211/?search_id=16583846793803oa0v9fmvoa",
+    "title": "SRE/DevOps Engineer",
+    "company": "СберМегаМаркет",
+    "description": "СберМегаМаркет — это онлайн-площадка, на которой можно купить всё необходимое: от телевизора до свежих фруктов. Наши команды помогают людям приобретать товары, не выходя из дома, а партнёрам – развивать свой бизнес. У нас уже 15 млн уникальных посетителей, 8 тысяч продавцов и более 100 000 заказов день…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 130,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46798359/?search_id=16583846793803oa0v9fmvoa",
+    "title": "QA Automation Engineer",
+    "company": "Okko",
+    "description": "Okko — один из крупнейших российских VoD-сервисов. Проект стартовал в 2011 году и сегодня представлен на всех ключевых платформах: Smart TV, mobile (IOS и Android), Apple TV, PlayStation 3, 4 и 5, web (ПК). Пользователи Okko могут купить и скачать понравившийся фильм в высоком качестве (8K, 4K, HDR)…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 131,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/45538307/?search_id=16583846793803oa0v9fmvoa",
+    "title": "Контролер-охранник",
+    "company": "БИЗНЕСКОНСАЛТ",
+    "description": "Охрана материальных ценностей и товара, препятствование их порче и хищению; контроль потока входящих и выходящих людей, вносимой и выносимой ручной клади; задержание лиц, совершивших или попытавшихся совершить кражу, и передача их сотрудникам органов внутренних дел; передача старшему смены информации…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 132,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/45538293/?search_id=16583846793803oa0v9fmvoa",
+    "title": "Помощник повара",
+    "company": "БИЗНЕСКОНСАЛТ",
+    "description": "Выпечка блинов в дневную смену,в ночную нарезка, чистка недостающих овощей,сборка салата \"Цезарь\". Требования: Соблюдать правила и нормы охраны труда и техники безопасности труда, санитарные требования и правила личной гигиены, производственной и трудовой дисциплины, правила внутреннего трудового распорядка…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 133,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/45538283/?search_id=16583846793803oa0v9fmvoa",
+    "title": "Фасовщица / фасовщик",
+    "company": "БИЗНЕСКОНСАЛТ",
+    "description": "Фасовка товаров для продажи конечному потребителю Требования: Внимательность, честность, порядочность, аккуратность. Условия: Официальное оформление по Трудовому Кодексу РФ с первого рабочего дня; Своевременная выплата заработной платы 2 раза в месяц без задержек; Обучение перед трудоустройством (за…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 134,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/45538259/?search_id=16583846793803oa0v9fmvoa",
+    "title": "Директор магазина Пеликан",
+    "company": "БИЗНЕСКОНСАЛТ",
+    "description": "Управление персоналом магазина; Организация рабочих процессов в магазине; Обеспечение выполнения плановых показателей магазина (количественных и качественных); Контроль кассовой дисциплины; Контроль соблюдения стандартов обслуживания, торговой и трудовой дисциплины; Ведение отчетности, аналитики работы…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 135,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/45538260/?search_id=16583846793803oa0v9fmvoa",
+    "title": "Администратор торгового зала",
+    "company": "БИЗНЕСКОНСАЛТ",
+    "description": "​​​Организация работы сотрудников торгового зала; Контроль соблюдения выкладки товара, чистоты торгового зала; Проверка сроков годности продаваемого товара; Контроль соблюдения стандартов обслуживания в торговом зале; Решение всех административных вопросов. Требования: Опыт работы на аналогичной должности…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 136,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46759963/?search_id=16583846793803oa0v9fmvoa",
+    "title": "Продавец-консультант",
+    "company": "Билайн",
+    "description": "Мы предлагаем тебе присоединиться к команде билайн! Построим надежное будущее вместе! Что мы предлагаем: стабильность; оформление по ТК РФ; белая зарплата; высокий уровень дохода; комфортный график и место работы; ДМС + стоматология; скидки на покупку девайсов; бесплатная мобильная связь; · +2 дня к…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 137,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46691809/?search_id=1658387307299ayqfhnmqgya",
+    "title": "Application Security Engineer",
+    "company": "СберМегаМаркет",
+    "description": "СберМегаМаркет — это онлайн-площадка, на которой можно купить всё необходимое: от телевизора до свежих фруктов. Наши команды помогают людям приобретать товары, не выходя из дома, а партнёрам – развивать свой бизнес. Команда безопасности СберМегаМаркета заботится о конфиденциальности данных своих клиентов…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 138,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46787758/?search_id=1658387307299ayqfhnmqgya",
+    "title": "Инженер сопровождение хранилища данных (SberData)",
+    "company": "СБЕР",
+    "description": "SberData мы создаем централизованное хранилище данных всего Сбера. Это более 350 источников данных и 100+ Пб информации, заказ и получение данных за 15 минут и современный технологический стек работы с данными, включая собственные сборки СУБД на базе Hadoop и Greenplum. Наши решения отмечены международной…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 139,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46757296/?search_id=1658387307299ayqfhnmqgya",
+    "title": "Data Scientist (remote)",
+    "company": "АктивБизнесКонсалт, ООО",
+    "description": "Кто мы? Мы – компания-разработчик IT решений на базе AI в сфере речевых технологий, таких как робот-оператор, речевая аналитика, распознавание речи и пр. На внешнем рынке мы представлены под брендом VS Robotics. Наша команда создает технологичные продукты, которые помогают сокращать расходы на коммуникации…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 140,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46798262/?search_id=1658387307299ayqfhnmqgya",
+    "title": "HR-аналитик",
+    "company": "Самокат",
+    "description": "ПРИГЛАШАЕМ В КОМАНДУ HR-АНАЛИТИКА; Самокат — это онлайн-магазин, который есть в более чем 40 городах России. Мы привозим продукты, товары для дома и косметику и дарим​​​ нашим клиентам то, чего всегда не хватает — время. Чтобы сделать заказ в Самокате, нужно собрать товары в корзину в приложении, оплатить…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 141,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/44770797/?search_id=1658387307299ayqfhnmqgya",
+    "title": "Middle Backend-разработчик C/Go",
+    "company": "Rambler&Co",
+    "description": "Rambler&Co занимает первое место среди медиахолдингов России по размеру ежемесячной аудитории — свыше 47,7 млн человек (по данным Mediascope, Cross Web, март 2022). В него входит «Лента.ру», «Газета.Ru», портал «Рамблер», «Чемпионат», «Секрет фирмы», WMJ.ru, Motor.ru, LiveJournal и ряд других медиаактивов…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 142,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46511903/?search_id=1658387307299ayqfhnmqgya",
+    "title": "DevOps Engineer",
+    "company": "СберЗдоровье",
+    "description": "СберЗдоровье - крупнейшая в России Digital Health платформа, объединяющая различные сервисы цифровой медицины. Сервис начал свою работу в 2012 году под брендом DocDoc. Мы помогли миллионам людей получить помощь и продолжаем повышать качество медицинских услуг. Об IT в цифрах: 3 бизнес-направления; 15…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 143,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46797797/?search_id=1658387307299ayqfhnmqgya",
+    "title": "Python Developer",
+    "company": "Объединенное Кредитное Бюро",
+    "description": "Объединенное Кредитное Бюро – крупнейшее Бюро кредитных историй в России. Мы не выдаем кредиты, мы храним и обрабатываем крупнейший в России массив данных о кредитных историях. Наш уникальный ресурс – самая большая база данных, в которой более 560 миллионов кредитных историй, и мы уделяем большое внимание…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 144,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46798369/?search_id=1658387307299ayqfhnmqgya",
+    "title": "QA Automation Engineer",
+    "company": "Okko",
+    "description": "Okko — один из крупнейших российских VoD-сервисов. Проект стартовал в 2011 году и сегодня представлен на всех ключевых платформах: Smart TV, mobile (IOS и Android), Apple TV, PlayStation 3, 4 и 5, web (ПК). Пользователи Okko могут купить и скачать понравившийся фильм в высоком качестве (8K, 4K, HDR)…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 145,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46806197/?search_id=1658387307299ayqfhnmqgya",
+    "title": "Администратор ИФТ",
+    "company": "СБЕР",
+    "description": "Вакансия открыта в трайбе «Digital Accounting», Трайб разрабатывает и развивает решения в части формирования учета и отчетности на перспективной IT-платформе Банка. Описание команды: У нас территориально распределенная группа сопровождения с площадками в Москве, Санкт-Петербурге и Хабаровске. Ключевая…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 146,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46757297/?search_id=1658387307299ayqfhnmqgya",
+    "title": "Data Science инженер (Kaldi)",
+    "company": "АктивБизнесКонсалт, ООО",
+    "description": "Кто мы? Мы – компания-разработчик IT решений на базе AI в сфере речевых технологий, таких как робот-оператор, речевая аналитика, распознавание речи и пр. На внешнем рынке мы представлены под брендом VS Robotics. Наша команда создает технологичные продукты, которые помогают сокращать расходы на коммуникации…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 147,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46793333/?search_id=1658387307299ayqfhnmqgya",
+    "title": "Data Science инженер, Kaldi (remote)",
+    "company": "АктивБизнесКонсалт, ООО",
+    "description": "Кто мы? Мы – компания-разработчик IT решений на базе AI в сфере речевых технологий, таких как робот-оператор, речевая аналитика, распознавание речи и пр. На внешнем рынке мы представлены под брендом VS Robotics. Наша команда создает технологичные продукты, которые помогают сокращать расходы на коммуникации…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 148,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46798219/?search_id=1658387307299ayqfhnmqgya",
+    "title": "Руководитель отдела маркетинговой аналитики",
+    "company": "Самокат",
+    "description": "ПРИГЛАШАЕМ В КОМАНДУ РУКОВОДИТЕЛЯ ОТДЕЛА МАРКЕТИНГОВОЙ АНАЛИТИКИ; Самокат — сервис #1 в России по числу заказов в сфере e-grocery. Мы создаем новый слой городской инфраструктуры с доставкой продуктов, косметики, лекарств, товаров для дома всего за 15 минут. Чтобы сделать заказ в Самокате, нужно собрать…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 149,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/45817211/?search_id=1658387307299ayqfhnmqgya",
+    "title": "SRE/DevOps Engineer",
+    "company": "СберМегаМаркет",
+    "description": "СберМегаМаркет — это онлайн-площадка, на которой можно купить всё необходимое: от телевизора до свежих фруктов. Наши команды помогают людям приобретать товары, не выходя из дома, а партнёрам – развивать свой бизнес. У нас уже 15 млн уникальных посетителей, 8 тысяч продавцов и более 100 000 заказов день…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 150,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46798359/?search_id=1658387307299ayqfhnmqgya",
+    "title": "QA Automation Engineer",
+    "company": "Okko",
+    "description": "Okko — один из крупнейших российских VoD-сервисов. Проект стартовал в 2011 году и сегодня представлен на всех ключевых платформах: Smart TV, mobile (IOS и Android), Apple TV, PlayStation 3, 4 и 5, web (ПК). Пользователи Okko могут купить и скачать понравившийся фильм в высоком качестве (8K, 4K, HDR)…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 151,
+  "fields": {
+    "url": "https://khabarovsk.hh.ru/vacancy/68215749?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "title": "Преподаватель программирования Python для детей онлайн",
+    "company": "Uchi.ru",
+    "description": "Обучать старшеклассников программированию в группах 10-15 человек. Работать по готовой базе материалов, разработанных методистами UCHi.RU. Вести уроки онлайн на...Получили средне-специальное или высшее образование (специализации в сфере: информатика, IT). Быстро осваиваете новые навыки в работе.",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 152,
+  "fields": {
+    "url": "https://khabarovsk.hh.ru/vacancy/68195636?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "title": "Стажер в департамент информационной безопасности",
+    "company": "ООО Совкомбанк Технологии",
+    "description": "Обучение в виде курса лекций и практических заданий: Обучение основам анализа защищенности веб-приложений и информационных систем (blackbox/graybox/whitebox...Для поступления нужно владеть хотя бы одним языком программирования (JS, Python, C++, Java или Golang). Разбираться в особенностях построения и...",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 153,
+  "fields": {
+    "url": "https://khabarovsk.hh.ru/vacancy/68268344?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "title": "DevOps инженер (удаленная работа)",
+    "company": "DNS Головной офис",
+    "description": "Разработка и поддержка конвейера непрерывной поставки ПО. Постоянное взаимодействие с командами разработки и тестирования. Участие в проработке архитектуры приложений. Немного знает хотя бы один из языков программирования (Желательно Python или Go). Понимает, как работает сеть (маршрутизация). Пройденные курсы по...",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 154,
+  "fields": {
+    "url": "https://khabarovsk.hh.ru/vacancy/68240626?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "title": "Support Engineer / Administrator Linux",
+    "company": "SberTech",
+    "description": "Системы мониторинга и аудита (Prometheus, ELK, Grafana). Скриптовые языки (Bash, Python, Groovy DSL). Операционные системы Linux (RedHat, Alt). Обязанности. Навыки работы с инструментами CI/CD (Ansible/Jenkins/Bitbucket/Nexus). Опыт написания скриптов на Bash/Python или др. ",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 155,
+  "fields": {
+    "url": "https://khabarovsk.hh.ru/vacancy/68182058?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "title": "Администратор АС Тенгри (Software Engineer), Хабаровск",
+    "company": "Сбер. IT",
+    "description": "Сопровождение и внедрение высоконагруженных интеграционных систем. Поддержание работоспособности сопровождаемых систем, участие в их восстановлении в случае сбоев в качестве эксперта...Знание технологий Apache Kafka, Hadoop, Grafana (или аналоги). Знание основ программирования (Python, Java). Знание DevOps. Понимание архитектуры АС, серверов приложений. ",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 156,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46691809/?search_id=1659157040009v30cjzxfbn",
+    "title": "Application Security Engineer",
+    "company": "СберМегаМаркет",
+    "description": "СберМегаМаркет — это онлайн-площадка, на которой можно купить всё необходимое: от телевизора до свежих фруктов. Наши команды помогают людям приобретать товары, не выходя из дома, а партнёрам – развивать свой бизнес. Команда безопасности СберМегаМаркета заботится о конфиденциальности данных своих клиентов…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 157,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46806197/?search_id=1659157040009v30cjzxfbn",
+    "title": "Администратор ИФТ",
+    "company": "СБЕР",
+    "description": "Вакансия открыта в трайбе «Digital Accounting», Трайб разрабатывает и развивает решения в части формирования учета и отчетности на перспективной IT-платформе Банка. Описание команды: У нас территориально распределенная группа сопровождения с площадками в Москве, Санкт-Петербурге и Хабаровске. Ключевая…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 158,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46793333/?search_id=1659157040009v30cjzxfbn",
+    "title": "Data Science инженер, Kaldi (remote)",
+    "company": "АктивБизнесКонсалт, ООО",
+    "description": "Кто мы? Мы – компания-разработчик IT решений на базе AI в сфере речевых технологий, таких как робот-оператор, речевая аналитика, распознавание речи и пр. На внешнем рынке мы представлены под брендом VS Robotics. Наша команда создает технологичные продукты, которые помогают сокращать расходы на коммуникации…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 159,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46798219/?search_id=1659157040009v30cjzxfbn",
+    "title": "Руководитель отдела маркетинговой аналитики",
+    "company": "Самокат",
+    "description": "ПРИГЛАШАЕМ В КОМАНДУ РУКОВОДИТЕЛЯ ОТДЕЛА МАРКЕТИНГОВОЙ АНАЛИТИКИ; Самокат — сервис #1 в России по числу заказов в сфере e-grocery. Мы создаем новый слой городской инфраструктуры с доставкой продуктов, косметики, лекарств, товаров для дома всего за 15 минут. Чтобы сделать заказ в Самокате, нужно собрать…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 160,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/44770797/?search_id=1659157040009v30cjzxfbn",
+    "title": "Middle Backend-разработчик C/Go",
+    "company": "Rambler&Co",
+    "description": "Rambler&Co занимает первое место среди медиахолдингов России по размеру ежемесячной аудитории — свыше 47,7 млн человек (по данным Mediascope, Cross Web, март 2022). В него входит «Лента.ру», «Газета.Ru», портал «Рамблер», «Чемпионат», «Секрет фирмы», WMJ.ru, Motor.ru, LiveJournal и ряд других медиаактивов…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 161,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46511903/?search_id=1659157040009v30cjzxfbn",
+    "title": "DevOps Engineer",
+    "company": "СберЗдоровье",
+    "description": "СберЗдоровье - крупнейшая в России Digital Health платформа, объединяющая различные сервисы цифровой медицины. Сервис начал свою работу в 2012 году под брендом DocDoc. Мы помогли миллионам людей получить помощь и продолжаем повышать качество медицинских услуг. Об IT в цифрах: 3 бизнес-направления; 15…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 162,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46797797/?search_id=1659157040009v30cjzxfbn",
+    "title": "Python Developer",
+    "company": "Объединенное Кредитное Бюро",
+    "description": "Объединенное Кредитное Бюро – крупнейшее Бюро кредитных историй в России. Мы не выдаем кредиты, мы храним и обрабатываем крупнейший в России массив данных о кредитных историях. Наш уникальный ресурс – самая большая база данных, в которой более 560 миллионов кредитных историй, и мы уделяем большое внимание…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 163,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46798369/?search_id=1659157040009v30cjzxfbn",
+    "title": "QA Automation Engineer",
+    "company": "Okko",
+    "description": "Okko — один из крупнейших российских VoD-сервисов. Проект стартовал в 2011 году и сегодня представлен на всех ключевых платформах: Smart TV, mobile (IOS и Android), Apple TV, PlayStation 3, 4 и 5, web (ПК). Пользователи Okko могут купить и скачать понравившийся фильм в высоком качестве (8K, 4K, HDR)…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 164,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46835934/?search_id=1659157040009v30cjzxfbn",
+    "title": "ML инженер",
+    "company": "НПЦ «ЭЛВИС»",
+    "description": "АО НПЦ «ЭЛВИС» - высокотехнологичная российская компания, является центром компетенций в областях процессорных архитектур, аналого-цифровых и радиочастотных ИС, искусственного интеллекта, компьютерного зрения, обработки радиолокационных сигналов, интегрированных систем безопасности. В настоящий момент…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 165,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46839890/?search_id=1659157040009v30cjzxfbn",
+    "title": "Разработчик на python (fullstack)",
+    "company": "JCat, сервис размещения объявлений",
+    "description": "Вакансия компании: ООО \"ГЛИПТИКА\" Наша компания входит в ГК. На рынке разработок более 10 лет. Интервью проходят удаленно, в видео- аудио- формате; Обязанности: Создавать высоконагруженные системы не привязанные к конкретной СУБД (используем MySQL, Postgres, ClickHouse, Tarantool) для применения в телеком…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 166,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46798262/?search_id=1659157040009v30cjzxfbn",
+    "title": "HR-аналитик",
+    "company": "Самокат",
+    "description": "ПРИГЛАШАЕМ В КОМАНДУ HR-АНАЛИТИКА; Самокат — это онлайн-магазин, который есть в более чем 40 городах России. Мы привозим продукты, товары для дома и косметику и дарим​​​ нашим клиентам то, чего всегда не хватает — время. Чтобы сделать заказ в Самокате, нужно собрать товары в корзину в приложении, оплатить…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 167,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/45817211/?search_id=1659157040009v30cjzxfbn",
+    "title": "SRE/DevOps Engineer",
+    "company": "СберМегаМаркет",
+    "description": "СберМегаМаркет — это онлайн-площадка, на которой можно купить всё необходимое: от телевизора до свежих фруктов. Наши команды помогают людям приобретать товары, не выходя из дома, а партнёрам – развивать свой бизнес. У нас уже 15 млн уникальных посетителей, 8 тысяч продавцов и более 100 000 заказов день…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 168,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46798359/?search_id=1659157040009v30cjzxfbn",
+    "title": "QA Automation Engineer",
+    "company": "Okko",
+    "description": "Okko — один из крупнейших российских VoD-сервисов. Проект стартовал в 2011 году и сегодня представлен на всех ключевых платформах: Smart TV, mobile (IOS и Android), Apple TV, PlayStation 3, 4 и 5, web (ПК). Пользователи Okko могут купить и скачать понравившийся фильм в высоком качестве (8K, 4K, HDR)…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 169,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46835952/?search_id=1659157040009v30cjzxfbn",
+    "title": "ML инженер",
+    "company": "НПЦ «ЭЛВИС»",
+    "description": "АО НПЦ «ЭЛВИС» - высокотехнологичная российская компания, является центром компетенций в областях процессорных архитектур, аналого-цифровых и радиочастотных ИС, искусственного интеллекта, компьютерного зрения, обработки радиолокационных сигналов, интегрированных систем безопасности. В настоящий момент…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 170,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46839898/?search_id=1659157040009v30cjzxfbn",
+    "title": "Системный администратор Linux",
+    "company": "JCat, сервис размещения объявлений",
+    "description": "Вакансия компании: ООО \"ГЛИПТИКА\" Мы входим в ГК. Более 10 лет на рынке ИТ. Обязанности: Обязанности: Администрирование Linux/Windows (в меньшей степени) серверов. В процессе работы, придется сталкиваться с (в том или ином виде): OS: Linux Debian/CentOS, Windows 2008-2016- БД: MySQL, PostgresSQL, MSSQL…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 171,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46775129/?search_id=1659157040009v30cjzxfbn",
+    "title": "Повар-универсал",
+    "company": "ООО \"АЙЭФСИЭМ ГРУПП\"",
+    "description": "Приготовление первых и вторых блюд, салатов; Соблюдение рецептуры и технологии приготовления блюд; Соблюдение норм и правил техники безопасности и охраны труда. Требования: Навыки работы от 1 года; Навыки работы с ТТК; Ответственность, желание работать. Условия: Вахтовый метод работы 60 дней / 60 дней…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 172,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46775290/?search_id=1659157040009v30cjzxfbn",
+    "title": "Водитель категории B",
+    "company": "ООО \"Умные Горные Решения\"",
+    "description": "Осуществляет перевозку пассажиров по заявленному маршруту; контролирует исправность топливной аппаратуры, приборов электрооборудования и других механизмов и систем; проверяет наличие действительного талона государственного технического осмотра и полиса обязательного страхования гражданской ответственности…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 173,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46775229/?search_id=1659157040009v30cjzxfbn",
+    "title": "Электромеханик по оборудованию",
+    "company": "ООО \"Умные Горные Решения\"",
+    "description": "Осуществляет руководство подчиненным персоналом и обеспечивает работу оборудования, электроустановок, трубопроводов на участке, технически правильную их эксплуатацию, ремонт и модернизацию. Ведет учет наличия и движения оборудования на участке. Участвует в приемке и установке нового оборудования; Требования…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 174,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46775261/?search_id=1659157040009v30cjzxfbn",
+    "title": "Слесарь-электрик",
+    "company": "ООО \"Умные Горные Решения\"",
+    "description": "Монтаж, демонтаж, ремонт, опробование и техническое обслуживание электрической части машин, узлов и механизмов средней сложности, оборудования высоковольтных подстанций. Заземление и зануление электросиловых установок. Проверка изоляции электрооборудования и сушка высоковольтных двигателей и трансформаторов…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 175,
+  "fields": {
+    "url": "https://khabarovsk.rabota.ru/vacancy/46777738/?search_id=1659157040009v30cjzxfbn",
+    "title": "Продавец-консультант",
+    "company": "Билайн",
+    "description": "Мы предлагаем тебе присоединиться к команде билайн! Построим надежное будущее вместе! Что мы предлагаем: стабильность; оформление по ТК РФ; белая зарплата; высокий уровень дохода; комфортный график и место работы; ДМС + стоматология; скидки на покупку девайсов; бесплатная мобильная связь; · +2 дня к…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 176,
+  "fields": {
+    "url": "https://habarovsk.superjob.ru/vakansii/inzhener-programmist-30967868.html",
+    "title": "Инженер-программист",
+    "company": "Краевое государственное бюджетное учреждение здравоохранения \"Перинатальный центр\" имени профессора Г. С. Постола МЗ ХК",
+    "description": "Сопровождение МИС, сопровождение сайта. Решение текущих задач по системному администрированиюОбразование высшее, бакалавр или магистр по направлению информационные системы и технологии, знание языков программирования…",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2022-07-30"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 177,
+  "fields": {
+    "url": "https://starswaiting.ru",
+    "title": "Веб-разработчик",
+    "company": "Рога и копыта",
+    "description": "Текст текст текст",
+    "city": 2,
+    "language": 3,
+    "timestamp": "2022-08-01"
+  }
+},
+{
+  "model": "scraping.error",
+  "pk": 2,
+  "fields": {
+    "timestamp": "2022-07-30",
+    "data": {
+      "user_data": [
+        {
+          "city": "Хабаровск",
+          "language": "python",
+          "email": "test@mail.ru"
+        },
+        {
+          "city": "Владивосток",
+          "language": "javascript",
+          "email": "user1@mail.ru"
+        },
+        {
+          "city": "Углегорск",
+          "language": "Java",
+          "email": "user1@mail.ru"
+        }
+      ],
+      "errors": [
+        {
+          "url": "https://habarovsk.superjob.ru/vacancy/search/?keywords=python",
+          "title": "The page is empty"
+        },
+        {
+          "url": "https://habarovsk.superjob.ru/vacancy/search/?keywords=java",
+          "title": "The page is empty"
+        }
+      ]
+    }
+  }
+},
+{
+  "model": "scraping.url",
+  "pk": 1,
+  "fields": {
+    "city": 2,
+    "language": 2,
+    "url_data": {
+      "superjob": "https://habarovsk.superjob.ru/vacancy/search/?keywords=python",
+      "headhunter": "https://khabarovsk.hh.ru/search/vacancy?text=python&from=suggest_post&fromSearchLine=true&area=102",
+      "rabota": "https://khabarovsk.rabota.ru/?query=python&sort=relevance"
+    }
+  }
+},
+{
+  "model": "accounts.myuser",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$320000$Luceks0nzdZO0ISYxoyJN4$ayczsozZ/IZGlPOOKcKC83hlmuFd6e0VPOkBcYGGojI=",
+    "last_login": "2022-07-30T08:45:46.119Z",
+    "email": "chuk1976@mail.ru",
+    "is_active": true,
+    "is_admin": false,
+    "city": 4,
+    "language": 3,
+    "send_email": true
+  }
+},
+{
+  "model": "accounts.myuser",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$320000$XxFVP0BAsQSGFTxjdj2Tpv$eOaEfa4tRThr3YWQHfC0xhQaq/DAx2cPj9Q5T9zmSL4=",
+    "last_login": "2022-08-02T06:33:20.226Z",
+    "email": "admin@mail.ru",
+    "is_active": true,
+    "is_admin": true,
+    "city": null,
+    "language": null,
+    "send_email": true
+  }
+},
+{
+  "model": "accounts.myuser",
+  "pk": 9,
+  "fields": {
+    "password": "pbkdf2_sha256$320000$zNRuvpdc4IzeRtQcyNZWbD$O1HI5peikGIQCTQOg8uSaN/R1T4K8pnZdJkfznxoW4c=",
+    "last_login": "2022-08-02T06:34:09.662Z",
+    "email": "dartmorgot@yandex.ru",
+    "is_active": true,
+    "is_admin": false,
+    "city": 2,
+    "language": 2,
+    "send_email": true
+  }
+}
+]
